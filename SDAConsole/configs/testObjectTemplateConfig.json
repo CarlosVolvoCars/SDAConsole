@@ -1,0 +1,28 @@
+{
+	"TypeDesignation": 110,
+	"Vin": "YV1YKEEE6RM990053TEST",
+	"Fyon": "T1_EUHPAW",
+	"ProductType": "40",
+	"TypeCode": "",
+	"EcuList": [
+
+	],
+	"ExecEnvList": [
+		{
+			"ExecEnv": ""
+		}
+	],
+	"Vdns": [
+		"5H01"
+	],
+	"AllVariantExpression": true,
+	"IsCompleteCar": true,
+	"IsCompleteCPVMatch": true,
+	"CoMoExpressions": [
+
+]
+
+}
+
+
+

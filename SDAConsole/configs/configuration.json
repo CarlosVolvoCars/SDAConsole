@@ -1,0 +1,72 @@
+{
+  "dalAppSettingsPath": "./configs/appsettings.DAL.json",
+  "testObjectTemplateConfigPath": "./configs/testObjectTemplateConfig.json",
+  "baseCarConfigPath": "./dataStore/VBFs/baseCarConfig.vbf",
+  "baseInstructionPath": "./dataStore/siigInstruction.json",
+  "baseInstructionReportPath": "./dataStore/instructionResults.json",
+  "testObjectOutputFilePath": "test_object_config.json",
+  "ecuListFilePath": "./configs/ECUList.json",
+  "vehicleTypeCodesFilePath": "./configs/VehicleTypeCodes.json",
+  "vehicleFirstReadoutFilePath": "./dataStore/vehicleFirstReadout.json",
+  "confighubSettingsPath": "./configs/configHubSettings.json",
+  "excludedECUListFilePath": "./configs/ExcludedECUList.json",
+  "outputFolderPath": "./output/",
+  "exportedExcelFilePath": "results.xlsx",
+  "steeringCoMoExpressions": [
+    "I3GO-SL4",
+    "MOY8-O8M",
+    "4COA-DFX",
+    "4VTI-2GV"
+  ],
+  "forcedHardwarePartNumbers": [
+    {
+      "EcuName": "HPA",
+      "EcuAddress": "0x1D12",
+      "EcuHardwarePartNumber": "32453609",
+      "EcuHardwarePartVersion": "AA"
+    },
+    {
+      "EcuName": "AUD",
+      "EcuAddress": "0x1212",
+      "EcuHardwarePartNumber": "32264891",
+      "EcuHardwarePartVersion": "AA"
+    },
+    {
+      "EcuName": "HPAA",
+      "EcuAddress": "0x1D12",
+      "EcuHardwarePartNumber": "32453609",
+      "EcuHardwarePartVersion": "AA"
+    }
+  ],
+  "forcedCoMoExpressions": [
+      {
+          "Comment": "HPAA",
+          "Context": "A2MC-BN3",
+          "ecuSolutionParameter": "C5X1-0AW",
+          "ConfigurationParameterValues": [
+              "06Y5-YQQ",
+              "0HBA-60T",
+              "FGU5-312",
+              "I3GO-SL4",
+              "MOY8-O8M",
+              "TSUS-5J6",
+              "MPBZ-TG9"
+          ]
+      },
+      {
+          "Comment": "HPBA",
+          "Context": "A2MC-BN3",
+          "ecuSolutionParameter": "CSOQ-BXZ",
+          "ConfigurationParameterValues": [
+              "06Y5-YQQ",
+              "0HBA-60T",
+              "BIBP-Y7L",
+              "EUDQ-GY7",
+              "FGU5-312",
+              "I3GO-SL4",
+              "MOY8-O8M",
+              "TSUS-5J6"
+          ]
+      }
+  ]
+}

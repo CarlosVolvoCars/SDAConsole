@@ -1,0 +1,1071 @@
+2025-05-02 19:15:51.851 +02:00 [INF] Version: 0.0.72
+
+2025-05-02 19:16:00.210 +02:00 [INF] Getting BaseLineId for "SPA2_INT" from ConfigHub API Session.
+2025-05-02 19:16:00.642 +02:00 [INF] BaseLineId for "SPA2_INT" is "e3cde9b8-8cd0-4574-939d-b2d100d46c8f".
+2025-05-02 19:16:00.940 +02:00 [INF] Starting vehicle search...
+2025-05-02 19:16:03.072 +02:00 [INF] Vehicle found at 127.0.0.1
+2025-05-02 19:16:03.436 +02:00 [INF] Connected to vehicle.
+2025-05-02 19:16:03.436 +02:00 [INF] First Readout (RAW UDS requests).
+2025-05-02 19:16:03.871 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:16:03.886 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:16:03.886 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:16:04.054 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:16:04.055 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:16:04.055 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:16:04.055 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F186...
+2025-05-02 19:16:04.055 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:16:04.056 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:16:04.060 +02:00 [DBG] [UDS] Request blocked due to p3 timer. Is sensitive: False
+2025-05-02 19:16:04.180 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 3 data = 0x22f186 . Is sensitive: False
+2025-05-02 19:16:04.182 +02:00 [DBG] [UDS] Successfully sent functional request. Is sensitive: False
+2025-05-02 19:16:04.193 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1205. Is sensitive: False
+2025-05-02 19:16:04.193 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1206. Is sensitive: False
+2025-05-02 19:16:04.193 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1212. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1241. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1264. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1416. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1417. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1451. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1471. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1481. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1612. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1614. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1629. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1637. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1692. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16a1. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16c3. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16d4. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1841. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a11. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a12. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a13. Is sensitive: False
+2025-05-02 19:16:04.194 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a14. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a15. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a1a. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a21. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a43. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a53. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a60. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a61. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a68. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b11. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b12. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b13. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b22. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b41. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b42. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b51. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b61. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b62. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b74. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b75. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b91. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b92. Is sensitive: False
+2025-05-02 19:16:04.195 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1bb3. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1bb4. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1c01. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d01. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d04. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d05. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d06. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d07. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d08. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0b. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0d. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0e. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d10. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d12. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d13. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d15. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d16. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d19. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d1a. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d1b. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d20. Is sensitive: False
+2025-05-02 19:16:04.196 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d21. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d22. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d23. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d24. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d2c. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d31. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d32. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d35. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d36. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d37. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d38. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3a. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3b. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3d. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4a. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4b. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4e. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d51. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d55. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d57. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d58. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d5b. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d5c. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d62. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d63. Is sensitive: False
+2025-05-02 19:16:04.197 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d65. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d66. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d67. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d68. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d73. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d74. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d75. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d76. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7c. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7d. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7e. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7f. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d81. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d82. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d85. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d86. Is sensitive: False
+2025-05-02 19:16:04.198 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d87. Is sensitive: False
+2025-05-02 19:16:04.199 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d88. Is sensitive: False
+2025-05-02 19:16:06.059 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:16:06.059 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:16:07.183 +02:00 [DBG] [UDS] P6 timer expired for ECU functional request : source address = 0x0e80 target address = 0x1fff data length = 3 data = 0x22f186 . Is sensitive: False
+2025-05-02 19:16:07.184 +02:00 [DBG] [UDS] Functional request handler returning gathered responses. Is sensitive: False
+2025-05-02 19:16:07.209 +02:00 [VRB] Functional Vehicle READOUT 22F186 DONE...
+2025-05-02 19:16:07.209 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:16:07.211 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:16:07.211 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:16:07.211 +02:00 [INF] Readout completed successfully.
+2025-05-02 19:16:07.214 +02:00 [INF] Generating VehicleObject...
+2025-05-02 19:16:07.712 +02:00 [INF] Creating SiiG Order Generator...
+2025-05-02 19:16:07.772 +02:00 [INF] Downloading instruction from SIIG...
+2025-05-02 19:16:08.857 +02:00 [INF] Executing installation instruction.
+2025-05-02 19:16:08.862 +02:00 [INF] Siig manual - Based on OET_Readout-v2.1.362, version -  6.0
+2025-05-02 19:16:08.863 +02:00 [DBG] [IA] Installation started.
+2025-05-02 19:16:08.863 +02:00 [DBG] [IA] IA version:                12.0.0.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Supported schema versions: { 1.8, 1.9, 2.0, 2.1, 2.2, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 4.0 }.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Instruction file:          ./dataStore/siigInstruction.json.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Storage directory:         .\dataStore.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Execution mode:            StartFromBeginning.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Checkpoint:                0.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Connection type:           Default.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Vehicle codes key:         .
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Static VBF key:            .
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] VIN unique VBF key:        .
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Static VBF location:       .\dataStore.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] VIN unique VBF location:   .\dataStore.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Secure mode:               false.
+2025-05-02 19:16:08.864 +02:00 [DBG] [IA] Opening uds_manager.
+2025-05-02 19:16:08.865 +02:00 [DBG] [UDS] Trying to open handler.
+2025-05-02 19:16:08.865 +02:00 [DBG] [UDS] Handler opened.
+2025-05-02 19:16:08.866 +02:00 [DBG] [UDS] Sending tester present.
+2025-05-02 19:16:08.866 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 .
+2025-05-02 19:16:08.868 +02:00 [DBG] [IA] Installation should not be resumed - removing old data from storage directory.
+2025-05-02 19:16:08.869 +02:00 [DBG] [IA] Starting execution from the beginning of the instruction.
+2025-05-02 19:16:08.873 +02:00 [DBG] [IA] Command 3: Start of activity 0.
+2025-05-02 19:16:08.873 +02:00 [DBG] [IA] Command 3: Activity
+  activity
+    id: 3
+    name: 0
+    report_code: 0
+    checkpoint: 0
+    abort_on_failure: 0
+    timeout: 0
+    failing: 1
+    retries: 0
+    retry_delay: 0
+    bypass_blacklisted_ecus: 0
+  parallelism_per_attempt[0]: 1
+  complete_persistently: 0
+  retry_parent_activity: 1
+  retry_parent_activity: 1
+  commands: 1
+.
+2025-05-02 19:16:08.873 +02:00 [DBG] [IA] Command 3: Publishing event: ActivityStatusEvent.
+2025-05-02 19:16:08.873 +02:00 [DBG] [IA] Command 2: Start of activity SimpleReadout.
+2025-05-02 19:16:08.874 +02:00 [DBG] [IA] Command 2: Activity
+  activity
+    id: 2
+    name: SimpleReadout
+    report_code: 0
+    checkpoint: 0
+    abort_on_failure: 0
+    timeout: 0
+    failing: 1
+    retries: 0
+    retry_delay: 0
+    bypass_blacklisted_ecus: 0
+  parallelism_per_attempt[0]: 1
+  complete_persistently: 0
+  retry_parent_activity: 1
+  retry_parent_activity: 1
+  commands: 1
+.
+2025-05-02 19:16:08.874 +02:00 [DBG] [IA] Command 2: Publishing event: ActivityStatusEvent.
+2025-05-02 19:16:08.874 +02:00 [DBG] [IA] Command 1: Start of vehicleReadout vehicle_readout_action_v1.
+2025-05-02 19:16:08.874 +02:00 [DBG] [IA] Command 1: vehicleReadout
+  id: 1
+  name: vehicle_readout_action_v1
+  report_code: 3000
+  checkpoint: 0
+  abort_on_failure: 0
+  timeout: 0
+  failing: 0
+  retries: 0
+  retry_delay: 0
+  bypass_blacklisted_ecus: 0
+fail_state: FailFlow
+normalTimings
+  p6_client: 3000
+  p6_enhanced_client: 8000
+  p3_client_func: 1000
+  p3_client_func_tester_present: 100
+  p3_client_phys: 1000
+  p4_client: 600000
+enhancedTimings
+  p6_client: 3000
+  p6_enhanced_client: 8000
+  p3_client_func: 1000
+  p3_client_func_tester_present: 100
+  p3_client_phys: 1000
+  p4_client: 600000
+Entry
+    request: 22F120
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 1
+Entry
+    request: 22EDA0
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 1
+Entry
+    request: 22F114
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 0
+Entry
+    request: 22C011
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 0
+Entry
+    request: 22C010
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 0
+Entry
+    request: 22F12A
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 1
+Entry
+    request: 22F18C
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 0
+Entry
+    request: 22F12E
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 0
+Entry
+    request: 22F120
+    ecu_addresses[0]: 0x00001D12 - HPA
+    use_functional_request: 0
+.
+2025-05-02 19:16:08.874 +02:00 [DBG] [IA] Command 1: Sending functional request.
+2025-05-02 19:16:08.874 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:08.874 +02:00 [DBG] [UDS] Request blocked due to p3 timer.
+2025-05-02 19:16:08.970 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 3 data = 0x22f120 .
+2025-05-02 19:16:08.971 +02:00 [DBG] [UDS] Successfully sent functional request.
+2025-05-02 19:16:08.971 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1205.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1206.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1212.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1241.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1264.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1416.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1417.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1451.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1471.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1481.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1612.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1614.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1629.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1637.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1692.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16a1.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16c3.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16d4.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1841.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a11.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a12.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a13.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a14.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a15.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a1a.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a21.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a43.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a53.
+2025-05-02 19:16:08.987 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a60.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a61.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a68.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b11.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b12.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b13.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b22.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b41.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b42.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b51.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b61.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b62.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b74.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b75.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b91.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b92.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1bb3.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1bb4.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1c01.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d01.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d04.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d05.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d06.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d07.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d08.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0b.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0d.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0e.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d10.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d12.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d13.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d15.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d16.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d19.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d1a.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d1b.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d20.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d21.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d22.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d23.
+2025-05-02 19:16:08.988 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d24.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d2c.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d31.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d32.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d35.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d36.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d37.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d38.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3a.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3b.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3d.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4a.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4b.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4e.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d51.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d55.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d57.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d58.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d5b.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d5c.
+2025-05-02 19:16:08.989 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d62.
+2025-05-02 19:16:08.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d63.
+2025-05-02 19:16:08.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d65.
+2025-05-02 19:16:08.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d66.
+2025-05-02 19:16:08.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d67.
+2025-05-02 19:16:08.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d68.
+2025-05-02 19:16:08.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d73.
+2025-05-02 19:16:08.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d74.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d75.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d76.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7c.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7d.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7e.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7f.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d81.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d82.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d85.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d86.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d87.
+2025-05-02 19:16:09.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d88.
+2025-05-02 19:16:10.878 +02:00 [DBG] [UDS] Sending tester present.
+2025-05-02 19:16:10.878 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 .
+2025-05-02 19:16:11.982 +02:00 [DBG] [UDS] P6 timer expired for ECU functional request : source address = 0x0e80 target address = 0x1fff data length = 3 data = 0x22f120 .
+2025-05-02 19:16:11.982 +02:00 [DBG] [UDS] Functional request handler returning gathered responses.
+2025-05-02 19:16:11.983 +02:00 [DBG] [IA] Command 1: Sending functional request.
+2025-05-02 19:16:11.983 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:11.983 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 3 data = 0x22eda0 .
+2025-05-02 19:16:11.983 +02:00 [DBG] [UDS] Successfully sent functional request.
+2025-05-02 19:16:11.983 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1205.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1206.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1212.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1241.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1264.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1416.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1417.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1451.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1471.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1481.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1612.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1614.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1629.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1637.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1692.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16a1.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16c3.
+2025-05-02 19:16:11.997 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16d4.
+2025-05-02 19:16:11.998 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1841.
+2025-05-02 19:16:11.998 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a11.
+2025-05-02 19:16:11.998 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a12.
+2025-05-02 19:16:11.998 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a13.
+2025-05-02 19:16:11.998 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a14.
+2025-05-02 19:16:11.998 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a15.
+2025-05-02 19:16:11.998 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a1a.
+2025-05-02 19:16:11.998 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a21.
+2025-05-02 19:16:11.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a43.
+2025-05-02 19:16:11.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a53.
+2025-05-02 19:16:11.999 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a60.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a61.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a68.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b11.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b12.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b13.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b22.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b41.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b42.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b51.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b61.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b62.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b74.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b75.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b91.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b92.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1bb3.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1bb4.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1c01.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d01.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d04.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d05.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d06.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d07.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d08.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0b.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0d.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0e.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d10.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d12.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d13.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d15.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d16.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d19.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d1a.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d1b.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d20.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d21.
+2025-05-02 19:16:12.000 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d22.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d23.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d24.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d2c.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d31.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d32.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d35.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d36.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d37.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d38.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3a.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3b.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3d.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4a.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4b.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4e.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d51.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d55.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d57.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d58.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d5b.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d5c.
+2025-05-02 19:16:12.001 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d62.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d63.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d65.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d66.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d67.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d68.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d73.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d74.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d75.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d76.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7c.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7d.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7e.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7f.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d81.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d82.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d85.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d86.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d87.
+2025-05-02 19:16:12.002 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d88.
+2025-05-02 19:16:12.880 +02:00 [DBG] [UDS] Sending tester present.
+2025-05-02 19:16:12.880 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 .
+2025-05-02 19:16:14.891 +02:00 [DBG] [UDS] Sending tester present.
+2025-05-02 19:16:14.891 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 .
+2025-05-02 19:16:14.998 +02:00 [DBG] [UDS] P6 timer expired for ECU functional request : source address = 0x0e80 target address = 0x1fff data length = 3 data = 0x22eda0 .
+2025-05-02 19:16:14.998 +02:00 [DBG] [UDS] Functional request handler returning gathered responses.
+2025-05-02 19:16:14.999 +02:00 [DBG] [IA] Command 1: Send physical request to ECU 0x00001D12 - HPA.
+2025-05-02 19:16:14.999 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:14.999 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d12.
+2025-05-02 19:16:14.999 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22f114 .
+2025-05-02 19:16:15.000 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d12.
+2025-05-02 19:16:15.000 +02:00 [DBG] [UDS] Start P6 timer : 3000.
+2025-05-02 19:16:15.000 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:15.013 +02:00 [DBG] [UDS] Received negative response from ECU: 0x1d12.
+2025-05-02 19:16:15.013 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22f114 .
+2025-05-02 19:16:15.013 +02:00 [DBG] [UDS] Canceling P6 timer.
+2025-05-02 19:16:15.014 +02:00 [DBG] [UDS] No request to send, requests sent count: 0.
+2025-05-02 19:16:15.014 +02:00 [ERR] [IA] Command 1: Physical request to ECU 0x00001D12 - HPA failed.
+2025-05-02 19:16:15.014 +02:00 [WRN] [IA] Command 1: Vehicle readout request 22F114 failed for ECUs { 0x00001D12 - HPA }.
+2025-05-02 19:16:15.014 +02:00 [DBG] [IA] Command 1: Send physical request to ECU 0x00001D12 - HPA.
+2025-05-02 19:16:15.014 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:15.014 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d12.
+2025-05-02 19:16:15.014 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22c011 .
+2025-05-02 19:16:15.014 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d12.
+2025-05-02 19:16:15.014 +02:00 [DBG] [UDS] Start P6 timer : 3000.
+2025-05-02 19:16:15.014 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:15.030 +02:00 [DBG] [UDS] Received positive response from ECU: 0x1d12.
+2025-05-02 19:16:15.030 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22c011 .
+2025-05-02 19:16:15.030 +02:00 [DBG] [UDS] Canceling P6 timer.
+2025-05-02 19:16:15.030 +02:00 [DBG] [UDS] No request to send, requests sent count: 0.
+2025-05-02 19:16:15.030 +02:00 [DBG] [IA] Command 1: Send physical request to ECU 0x00001D12 - HPA.
+2025-05-02 19:16:15.030 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:15.030 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d12.
+2025-05-02 19:16:15.030 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22c010 .
+2025-05-02 19:16:15.031 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d12.
+2025-05-02 19:16:15.031 +02:00 [DBG] [UDS] Start P6 timer : 3000.
+2025-05-02 19:16:15.031 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:15.044 +02:00 [DBG] [UDS] Received positive response from ECU: 0x1d12.
+2025-05-02 19:16:15.044 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22c010 .
+2025-05-02 19:16:15.044 +02:00 [DBG] [UDS] Canceling P6 timer.
+2025-05-02 19:16:15.044 +02:00 [DBG] [UDS] No request to send, requests sent count: 0.
+2025-05-02 19:16:15.044 +02:00 [DBG] [IA] Command 1: Sending functional request.
+2025-05-02 19:16:15.044 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:15.044 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 3 data = 0x22f12a .
+2025-05-02 19:16:15.045 +02:00 [DBG] [UDS] Successfully sent functional request.
+2025-05-02 19:16:15.045 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:15.061 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1205.
+2025-05-02 19:16:15.061 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1206.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1212.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1241.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1264.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1416.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1417.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1451.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1471.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1481.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1612.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1614.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1629.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1637.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1692.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16a1.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16c3.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x16d4.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1841.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a11.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a12.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a13.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a14.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a15.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a1a.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a21.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a43.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a53.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a60.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a61.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1a68.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b11.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b12.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b13.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b22.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b41.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b42.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b51.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b61.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b62.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b74.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b75.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b91.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1b92.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1bb3.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1bb4.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1c01.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d01.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d04.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d05.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d06.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d07.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d08.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0b.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0d.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d0e.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d10.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d12.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d13.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d15.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d16.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d19.
+2025-05-02 19:16:15.062 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d1a.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d1b.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d20.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d21.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d22.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d23.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d24.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d2c.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d31.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d32.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d35.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d36.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d37.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d38.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3a.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3b.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d3d.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4a.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4b.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d4e.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d51.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d55.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d57.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d58.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d5b.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d5c.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d62.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d63.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d65.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d66.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d67.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d68.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d73.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d74.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d75.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d76.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7c.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7d.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7e.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d7f.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d81.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d82.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d85.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d86.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d87.
+2025-05-02 19:16:15.063 +02:00 [DBG] [UDS] Functional request, received positive response from ECU: 0x1d88.
+2025-05-02 19:16:16.905 +02:00 [DBG] [UDS] Sending tester present.
+2025-05-02 19:16:16.905 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 .
+2025-05-02 19:16:18.060 +02:00 [DBG] [UDS] P6 timer expired for ECU functional request : source address = 0x0e80 target address = 0x1fff data length = 3 data = 0x22f12a .
+2025-05-02 19:16:18.060 +02:00 [DBG] [UDS] Functional request handler returning gathered responses.
+2025-05-02 19:16:18.061 +02:00 [DBG] [IA] Command 1: Send physical request to ECU 0x00001D12 - HPA.
+2025-05-02 19:16:18.061 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:18.061 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d12.
+2025-05-02 19:16:18.061 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22f18c .
+2025-05-02 19:16:18.062 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d12.
+2025-05-02 19:16:18.062 +02:00 [DBG] [UDS] Start P6 timer : 3000.
+2025-05-02 19:16:18.062 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:18.075 +02:00 [DBG] [UDS] Received positive response from ECU: 0x1d12.
+2025-05-02 19:16:18.075 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22f18c .
+2025-05-02 19:16:18.075 +02:00 [DBG] [UDS] Canceling P6 timer.
+2025-05-02 19:16:18.075 +02:00 [DBG] [UDS] No request to send, requests sent count: 0.
+2025-05-02 19:16:18.076 +02:00 [DBG] [IA] Command 1: Send physical request to ECU 0x00001D12 - HPA.
+2025-05-02 19:16:18.076 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:18.076 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d12.
+2025-05-02 19:16:18.076 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22f12e .
+2025-05-02 19:16:18.076 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d12.
+2025-05-02 19:16:18.076 +02:00 [DBG] [UDS] Start P6 timer : 3000.
+2025-05-02 19:16:18.076 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:18.091 +02:00 [DBG] [UDS] Received negative response from ECU: 0x1d12.
+2025-05-02 19:16:18.091 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22f12e .
+2025-05-02 19:16:18.091 +02:00 [DBG] [UDS] Canceling P6 timer.
+2025-05-02 19:16:18.091 +02:00 [DBG] [UDS] No request to send, requests sent count: 0.
+2025-05-02 19:16:18.091 +02:00 [ERR] [IA] Command 1: Physical request to ECU 0x00001D12 - HPA failed.
+2025-05-02 19:16:18.091 +02:00 [WRN] [IA] Command 1: Vehicle readout request 22F12E failed for ECUs { 0x00001D12 - HPA }.
+2025-05-02 19:16:18.091 +02:00 [DBG] [IA] Command 1: Send physical request to ECU 0x00001D12 - HPA.
+2025-05-02 19:16:18.091 +02:00 [DBG] [IA] Waiting for confirmation from UDS.
+2025-05-02 19:16:18.091 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d12.
+2025-05-02 19:16:18.091 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22f120 .
+2025-05-02 19:16:18.092 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d12.
+2025-05-02 19:16:18.092 +02:00 [DBG] [UDS] Start P6 timer : 3000.
+2025-05-02 19:16:18.092 +02:00 [DBG] [IA] Waiting for response from UDS.
+2025-05-02 19:16:18.107 +02:00 [DBG] [UDS] Received positive response from ECU: 0x1d12.
+2025-05-02 19:16:18.107 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d12 data length = 3 data = 0x22f120 .
+2025-05-02 19:16:18.107 +02:00 [DBG] [UDS] Canceling P6 timer.
+2025-05-02 19:16:18.107 +02:00 [DBG] [UDS] No request to send, requests sent count: 0.
+2025-05-02 19:16:18.107 +02:00 [WRN] [IA] Command 1: Vehicle readout failed for one or more ECUs.
+2025-05-02 19:16:18.107 +02:00 [WRN] [IA] Command 1: Returning success from failed command since failing is set to false.
+2025-05-02 19:16:18.107 +02:00 [DBG] [IA] Command 1: End of vehicleReadout vehicle_readout_action_v1. Result = true.
+2025-05-02 19:16:18.107 +02:00 [DBG] [IA] Command 2: Publishing event: ActivityStatusEvent.
+2025-05-02 19:16:18.108 +02:00 [DBG] [IA] Command 2: End of activity SimpleReadout. Result = true.
+2025-05-02 19:16:18.108 +02:00 [DBG] [IA] Command 3: Publishing event: ActivityStatusEvent.
+2025-05-02 19:16:18.108 +02:00 [DBG] [IA] Command 3: End of activity 0. Result = true.
+2025-05-02 19:16:18.109 +02:00 [DBG] [UDS] Closing Handler.
+2025-05-02 19:16:18.110 +02:00 [DBG] [UDS] Handler closed.
+2025-05-02 19:16:18.145 +02:00 [INF] Instruction executed.
+2025-05-02 19:16:18.169 +02:00 [INF] Parsing results into VehicleObject...
+2025-05-02 19:16:18.310 +02:00 [INF] Extracting data from InstallationReport...
+2025-05-02 19:16:25.610 +02:00 [INF] VIN: 0
+2025-05-02 19:16:32.417 +02:00 [INF] VehicleTypeCode: 0
+2025-05-02 19:16:39.143 +02:00 [INF] FYON: 0
+2025-05-02 19:16:46.048 +02:00 [INF] Chassis: 
+2025-05-02 19:16:52.787 +02:00 [INF] FactoryCode: 
+2025-05-02 19:16:59.526 +02:00 [INF] StructureWeek: 0
+2025-05-02 19:16:59.528 +02:00 [ERR] Failed to parse StructureWeek to long.
+2025-05-02 19:16:59.531 +02:00 [INF] Starting GetConfigurationModellerExpresions method...
+2025-05-02 19:16:59.531 +02:00 [INF] Steering CoMo Expresions: I3GO-SL4, MOY8-O8M, 4COA-DFX, 4VTI-2GV
+2025-05-02 19:17:06.276 +02:00 [INF] CoMo Expresions before filtering with Steering CoMos: 2525-JWE, 3219-7PA
+2025-05-02 19:17:06.399 +02:00 [INF] CoMo Expresions after filtering with Steering CoMos: 2525-JWE, 3219-7PA, I3GO-SL4, MOY8-O8M, 4COA-DFX, 4VTI-2GV
+2025-05-02 19:17:06.412 +02:00 [WRN] ECU CCPM not found in ApplDiagnosticPartNumberList.
+2025-05-02 19:17:06.413 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:17:06.416 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:17:06.416 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:17:06.418 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:17:06.419 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:17:06.419 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:17:06.419 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F120...
+2025-05-02 19:17:06.419 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:06.419 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:06.422 +02:00 [DBG] [UDS] Subscribed to ECU 0x16d3. Is sensitive: False
+2025-05-02 19:17:06.422 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x16d3 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:06.422 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x16d3. Is sensitive: False
+2025-05-02 19:17:06.422 +02:00 [DBG] [UDS] Start P6 timer : 3000. Is sensitive: False
+2025-05-02 19:17:08.430 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:08.431 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:09.428 +02:00 [WRN] [UDS] Ecu 0x16d3 has a p6 timeout. Is sensitive: False
+2025-05-02 19:17:09.428 +02:00 [WRN] [UDS] P6 timeout for request: source address = 0x0e80 target address = 0x16d3 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:09.429 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x16d3 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:09.431 +02:00 [DBG] [UDS] Canceling P6 timer. Is sensitive: False
+2025-05-02 19:17:09.431 +02:00 [DBG] [UDS] No request to send, requests sent count: 0. Is sensitive: False
+2025-05-02 19:17:09.435 +02:00 [VRB] Functional Vehicle READOUT 22F120 DONE...
+2025-05-02 19:17:09.435 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:17:09.436 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:17:09.436 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:17:09.438 +02:00 [WRN] ECU BCPM not found in ApplDiagnosticPartNumberList.
+2025-05-02 19:17:09.438 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:17:09.438 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:17:09.438 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:17:09.439 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:17:09.440 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:17:09.440 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:17:09.440 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F120...
+2025-05-02 19:17:09.440 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:09.440 +02:00 [DBG] [UDS] Subscribed to ECU 0x16d2. Is sensitive: False
+2025-05-02 19:17:09.440 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:09.440 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x16d2 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:09.441 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x16d2. Is sensitive: False
+2025-05-02 19:17:09.441 +02:00 [DBG] [UDS] Start P6 timer : 3000. Is sensitive: False
+2025-05-02 19:17:11.447 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:11.447 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:12.444 +02:00 [WRN] [UDS] Ecu 0x16d2 has a p6 timeout. Is sensitive: False
+2025-05-02 19:17:12.444 +02:00 [WRN] [UDS] P6 timeout for request: source address = 0x0e80 target address = 0x16d2 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:12.444 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x16d2 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:12.444 +02:00 [DBG] [UDS] Canceling P6 timer. Is sensitive: False
+2025-05-02 19:17:12.444 +02:00 [DBG] [UDS] No request to send, requests sent count: 0. Is sensitive: False
+2025-05-02 19:17:12.450 +02:00 [VRB] Functional Vehicle READOUT 22F120 DONE...
+2025-05-02 19:17:12.451 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:17:12.451 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:17:12.451 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:17:12.452 +02:00 [WRN] ECU IPDA not found in ApplDiagnosticPartNumberList.
+2025-05-02 19:17:12.452 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:17:12.452 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:17:12.452 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:17:12.455 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:17:12.455 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:17:12.455 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:17:12.455 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F120...
+2025-05-02 19:17:12.456 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d5a. Is sensitive: False
+2025-05-02 19:17:12.456 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:12.456 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d5a data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:12.456 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:12.456 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d5a. Is sensitive: False
+2025-05-02 19:17:12.456 +02:00 [DBG] [UDS] Start P6 timer : 3000. Is sensitive: False
+2025-05-02 19:17:14.465 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:14.465 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:15.467 +02:00 [WRN] [UDS] Ecu 0x1d5a has a p6 timeout. Is sensitive: False
+2025-05-02 19:17:15.467 +02:00 [WRN] [UDS] P6 timeout for request: source address = 0x0e80 target address = 0x1d5a data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:15.467 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d5a data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:15.467 +02:00 [DBG] [UDS] Canceling P6 timer. Is sensitive: False
+2025-05-02 19:17:15.467 +02:00 [DBG] [UDS] No request to send, requests sent count: 0. Is sensitive: False
+2025-05-02 19:17:15.470 +02:00 [VRB] Functional Vehicle READOUT 22F120 DONE...
+2025-05-02 19:17:15.470 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:17:15.470 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:17:15.470 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:17:15.471 +02:00 [WRN] ECU ITA not found in ApplDiagnosticPartNumberList.
+2025-05-02 19:17:15.471 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:17:15.471 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:17:15.471 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:17:15.473 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:17:15.473 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:17:15.473 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:17:15.473 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F120...
+2025-05-02 19:17:15.474 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d60. Is sensitive: False
+2025-05-02 19:17:15.474 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:15.474 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:15.474 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d60 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:15.474 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d60. Is sensitive: False
+2025-05-02 19:17:15.474 +02:00 [DBG] [UDS] Start P6 timer : 3000. Is sensitive: False
+2025-05-02 19:17:17.483 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:17.484 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:18.485 +02:00 [WRN] [UDS] Ecu 0x1d60 has a p6 timeout. Is sensitive: False
+2025-05-02 19:17:18.485 +02:00 [WRN] [UDS] P6 timeout for request: source address = 0x0e80 target address = 0x1d60 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:18.485 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d60 data length = 3 data = 0x22f120 . Is sensitive: False
+2025-05-02 19:17:18.485 +02:00 [DBG] [UDS] Canceling P6 timer. Is sensitive: False
+2025-05-02 19:17:18.485 +02:00 [DBG] [UDS] No request to send, requests sent count: 0. Is sensitive: False
+2025-05-02 19:17:18.494 +02:00 [VRB] Functional Vehicle READOUT 22F120 DONE...
+2025-05-02 19:17:18.494 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:17:18.495 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:17:18.495 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:17:18.504 +02:00 [WRN] ECU CCPM not found in HardwarePartNumberList.
+2025-05-02 19:17:18.504 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:17:18.504 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:17:18.504 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:17:18.506 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:17:18.506 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:17:18.506 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:17:18.506 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F12A...
+2025-05-02 19:17:18.507 +02:00 [DBG] [UDS] Subscribed to ECU 0x16d3. Is sensitive: False
+2025-05-02 19:17:18.507 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:18.507 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:18.507 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x16d3 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:18.508 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x16d3. Is sensitive: False
+2025-05-02 19:17:18.508 +02:00 [DBG] [UDS] Start P6 timer : 3000. Is sensitive: False
+2025-05-02 19:17:20.511 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:20.511 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:21.523 +02:00 [WRN] [UDS] Ecu 0x16d3 has a p6 timeout. Is sensitive: False
+2025-05-02 19:17:21.523 +02:00 [WRN] [UDS] P6 timeout for request: source address = 0x0e80 target address = 0x16d3 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:21.523 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x16d3 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:21.524 +02:00 [DBG] [UDS] Canceling P6 timer. Is sensitive: False
+2025-05-02 19:17:21.524 +02:00 [DBG] [UDS] No request to send, requests sent count: 0. Is sensitive: False
+2025-05-02 19:17:21.528 +02:00 [VRB] Functional Vehicle READOUT 22F12A DONE...
+2025-05-02 19:17:21.528 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:17:21.528 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:17:21.528 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:17:21.529 +02:00 [WRN] ECU BCPM not found in HardwarePartNumberList.
+2025-05-02 19:17:21.529 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:17:21.529 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:17:21.529 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:17:21.532 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:17:21.532 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:17:21.532 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:17:21.532 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F12A...
+2025-05-02 19:17:21.532 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:21.532 +02:00 [DBG] [UDS] Subscribed to ECU 0x16d2. Is sensitive: False
+2025-05-02 19:17:21.532 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:21.533 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x16d2 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:21.533 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x16d2. Is sensitive: False
+2025-05-02 19:17:21.533 +02:00 [DBG] [UDS] Start P6 timer : 3000. Is sensitive: False
+2025-05-02 19:17:23.546 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:23.547 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:24.542 +02:00 [WRN] [UDS] Ecu 0x16d2 has a p6 timeout. Is sensitive: False
+2025-05-02 19:17:24.543 +02:00 [WRN] [UDS] P6 timeout for request: source address = 0x0e80 target address = 0x16d2 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:24.543 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x16d2 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:24.543 +02:00 [DBG] [UDS] Canceling P6 timer. Is sensitive: False
+2025-05-02 19:17:24.543 +02:00 [DBG] [UDS] No request to send, requests sent count: 0. Is sensitive: False
+2025-05-02 19:17:24.546 +02:00 [VRB] Functional Vehicle READOUT 22F12A DONE...
+2025-05-02 19:17:24.546 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:17:24.547 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:17:24.548 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:17:24.549 +02:00 [WRN] ECU IPDA not found in HardwarePartNumberList.
+2025-05-02 19:17:24.549 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:17:24.549 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:17:24.549 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:17:24.551 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:17:24.551 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:17:24.551 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:17:24.551 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F12A...
+2025-05-02 19:17:24.551 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d5a. Is sensitive: False
+2025-05-02 19:17:24.552 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:24.552 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:24.552 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d5a data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:24.552 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d5a. Is sensitive: False
+2025-05-02 19:17:24.552 +02:00 [DBG] [UDS] Start P6 timer : 3000. Is sensitive: False
+2025-05-02 19:17:26.560 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:26.560 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:27.559 +02:00 [WRN] [UDS] Ecu 0x1d5a has a p6 timeout. Is sensitive: False
+2025-05-02 19:17:27.559 +02:00 [WRN] [UDS] P6 timeout for request: source address = 0x0e80 target address = 0x1d5a data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:27.559 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d5a data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:27.559 +02:00 [DBG] [UDS] Canceling P6 timer. Is sensitive: False
+2025-05-02 19:17:27.560 +02:00 [DBG] [UDS] No request to send, requests sent count: 0. Is sensitive: False
+2025-05-02 19:17:27.563 +02:00 [VRB] Functional Vehicle READOUT 22F12A DONE...
+2025-05-02 19:17:27.563 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:17:27.564 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:17:27.564 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:17:27.565 +02:00 [WRN] ECU ITA not found in HardwarePartNumberList.
+2025-05-02 19:17:27.565 +02:00 [VRB] Vehicle connection OPEN...
+2025-05-02 19:17:27.565 +02:00 [INF] Connection: {
+  "Connected": true,
+  "Dox": {
+    "BusType": 0
+  },
+  "IsConnectionInitialized": true
+}
+2025-05-02 19:17:27.565 +02:00 [VRB] UDS connection INIT...
+2025-05-02 19:17:27.566 +02:00 [DBG] [UDS] Trying to open handler. Is sensitive: False
+2025-05-02 19:17:27.566 +02:00 [DBG] [UDS] Handler opened. Is sensitive: False
+2025-05-02 19:17:27.566 +02:00 [VRB] UDS connection OPEN...
+2025-05-02 19:17:27.566 +02:00 [VRB] Attempting Functional Vehicle READOUT 22F12A...
+2025-05-02 19:17:27.567 +02:00 [DBG] [UDS] Subscribed to ECU 0x1d60. Is sensitive: False
+2025-05-02 19:17:27.567 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:27.567 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:27.567 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1d60 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:27.568 +02:00 [DBG] [UDS] Successfully sent request to ECU: 0x1d60. Is sensitive: False
+2025-05-02 19:17:27.568 +02:00 [DBG] [UDS] Start P6 timer : 3000. Is sensitive: False
+2025-05-02 19:17:29.581 +02:00 [DBG] [UDS] Sending tester present. Is sensitive: False
+2025-05-02 19:17:29.581 +02:00 [DBG] [UDS] Sending request to DOX : source address = 0x0e80 target address = 0x1fff data length = 2 data = 0x3e80 . Is sensitive: False
+2025-05-02 19:17:30.575 +02:00 [WRN] [UDS] Ecu 0x1d60 has a p6 timeout. Is sensitive: False
+2025-05-02 19:17:30.575 +02:00 [WRN] [UDS] P6 timeout for request: source address = 0x0e80 target address = 0x1d60 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:30.575 +02:00 [DBG] [UDS] Request completed source address = 0x0e80 target address = 0x1d60 data length = 3 data = 0x22f12a . Is sensitive: False
+2025-05-02 19:17:30.575 +02:00 [DBG] [UDS] Canceling P6 timer. Is sensitive: False
+2025-05-02 19:17:30.575 +02:00 [DBG] [UDS] No request to send, requests sent count: 0. Is sensitive: False
+2025-05-02 19:17:30.577 +02:00 [VRB] Functional Vehicle READOUT 22F12A DONE...
+2025-05-02 19:17:30.577 +02:00 [DBG] [UDS] Closing Handler. Is sensitive: False
+2025-05-02 19:17:30.578 +02:00 [DBG] [UDS] Handler closed. Is sensitive: False
+2025-05-02 19:17:30.578 +02:00 [VRB] UDS connection CLOSED...
+2025-05-02 19:17:30.580 +02:00 [INF] VehicleObject VIN updated: 
+2025-05-02 19:17:30.580 +02:00 [INF] VehicleObject VehicleType updated: 
+2025-05-02 19:17:30.580 +02:00 [INF] VehicleObject FYON updated: 
+2025-05-02 19:17:30.580 +02:00 [INF] VehicleObject Chassis updated: 
+2025-05-02 19:17:30.580 +02:00 [INF] VehicleObject FactoryCode updated: 
+2025-05-02 19:17:30.581 +02:00 [INF] VehicleObject StructureWeek updated: 0
+2025-05-02 19:17:30.581 +02:00 [INF] VehicleObject Number of CoMoExpressions updated: 6
+2025-05-02 19:17:30.587 +02:00 [INF] Forced Hardware Part Number updated for ECU HPA: 32453609 - AA
+2025-05-02 19:17:30.587 +02:00 [INF] Forced Hardware Part Number updated for ECU AUD: 32264891 - AA
+2025-05-02 19:17:30.730 +02:00 [WRN] Matching HW not found for SubBaselineID: 0de280ac-40d5-4539-bfe9-b1c600cf1a6d
+2025-05-02 19:17:30.817 +02:00 [WRN] Matching HW not found for SubBaselineID: 467aa05b-3c5b-496d-a722-b23400721fe3
+2025-05-02 19:17:30.899 +02:00 [WRN] Matching HW not found for SubBaselineID: ea492880-8b87-41f3-89e4-b24a00c16681
+2025-05-02 19:17:30.979 +02:00 [WRN] Matching HW not found for SubBaselineID: cfabf684-ec9e-4d0e-9151-b24a00c30e60
+2025-05-02 19:17:31.106 +02:00 [WRN] Matching HW not found for SubBaselineID: bcfcd23b-47b0-4bb4-a81e-b24a00cb0f24
+2025-05-02 19:17:31.186 +02:00 [WRN] Matching HW not found for SubBaselineID: 75b97de4-15ca-45f2-8deb-b24a00cedf5a
+2025-05-02 19:17:31.261 +02:00 [WRN] Matching HW not found for SubBaselineID: 9f6866b0-25d0-43cf-96cb-b266007b82bc
+2025-05-02 19:17:31.339 +02:00 [WRN] Matching HW not found for SubBaselineID: 7dd3bf77-bc3f-4e1a-8d97-b28100849b05
+2025-05-02 19:17:31.438 +02:00 [WRN] Matching HW not found for SubBaselineID: f54995ea-c816-4941-9157-b28800f95390
+2025-05-02 19:17:31.521 +02:00 [WRN] Matching HW not found for SubBaselineID: 433831b5-dbf9-46e5-ba1b-b28a006e5aeb
+2025-05-02 19:17:31.611 +02:00 [WRN] Matching HW not found for SubBaselineID: bf69ceb7-72b8-4a26-9625-b28a006eec4a
+2025-05-02 19:17:31.688 +02:00 [WRN] Matching HW not found for SubBaselineID: 8be6d97e-f563-47ee-acfd-b28a00700cb7
+2025-05-02 19:17:31.778 +02:00 [WRN] Matching HW not found for SubBaselineID: 91424d8f-08a0-4b9b-9fba-b28a007028d9
+2025-05-02 19:17:31.954 +02:00 [WRN] Matching HW not found for SubBaselineID: 9e360a3d-1dd4-4c36-b2ce-b26c00e1fe91
+2025-05-02 19:17:32.028 +02:00 [WRN] Matching HW not found for SubBaselineID: 56a1d481-c60c-4780-9420-b26e00e1594b
+2025-05-02 19:17:32.189 +02:00 [WRN] Matching HW not found for SubBaselineID: 806d70c2-e1f7-4bf8-a816-b27c00c5011f
+2025-05-02 19:17:32.367 +02:00 [WRN] Matching HW not found for SubBaselineID: 5fffe013-9ca9-4ed4-b858-b27c00fea87c
+2025-05-02 19:17:32.719 +02:00 [INF] Matching HW 1c4741d4-0a69-4cd6-87a4-b29700c64b74 found for SubBaselineID: 1c4741d4-0a69-4cd6-87a4-b29700c64b74
+2025-05-02 19:17:32.858 +02:00 [WRN] Matching HW not found for SubBaselineID: 4f458b7b-aa90-4882-8266-b29900abb8fd
+2025-05-02 19:17:32.934 +02:00 [WRN] Matching HW not found for SubBaselineID: 30f35f9b-b504-4890-b57b-b29900b15a4c
+2025-05-02 19:17:33.047 +02:00 [WRN] Matching HW not found for SubBaselineID: 0bc7364b-448d-4b7f-9aaa-b29600a1b583
+2025-05-02 19:17:33.165 +02:00 [WRN] Matching HW not found for SubBaselineID: 12c46b29-b917-45be-bffc-b29600a22282
+2025-05-02 19:17:33.250 +02:00 [WRN] Matching HW not found for SubBaselineID: 966c01b4-f8ca-4af8-acaa-b29800a2810f
+2025-05-02 19:17:33.333 +02:00 [WRN] Matching HW not found for SubBaselineID: bca2eda9-3d51-4a1f-9edd-b29800a3b786
+2025-05-02 19:17:33.413 +02:00 [WRN] Matching HW not found for SubBaselineID: 59fe39fc-4e14-4c43-ab6b-b29800a67f6f
+2025-05-02 19:17:33.499 +02:00 [WRN] Matching HW not found for SubBaselineID: e2b80e06-d03a-4e96-b8d5-b29800be6dca
+2025-05-02 19:17:33.920 +02:00 [WRN] Matching HW not found for SubBaselineID: a2069c0c-0e17-4632-a27c-b29800f35c51
+2025-05-02 19:17:34.224 +02:00 [WRN] Matching HW not found for SubBaselineID: 6c499b49-464e-4e32-af4a-b29800f479c9
+2025-05-02 19:17:34.338 +02:00 [WRN] Matching HW not found for SubBaselineID: 9b7ad901-f388-43dc-8e41-b29700737466
+2025-05-02 19:17:34.418 +02:00 [WRN] Matching HW not found for SubBaselineID: a5671413-1083-4af9-b27a-b2a400981279
+2025-05-02 19:17:34.496 +02:00 [WRN] Matching HW not found for SubBaselineID: ffa29a0b-9fb0-4da1-90fe-b29c00fc77c4
+2025-05-02 19:17:34.610 +02:00 [WRN] Matching HW not found for SubBaselineID: 0bc746bf-7c0a-4d9d-ba96-b2a400a4f391
+2025-05-02 19:17:35.683 +02:00 [WRN] Matching HW not found for SubBaselineID: 83251a83-d352-48af-a04f-b2ab00f2c9ba
+2025-05-02 19:17:35.756 +02:00 [WRN] Matching HW not found for SubBaselineID: dc0e514c-66d2-476f-b7ea-b28a00955dca
+2025-05-02 19:17:35.975 +02:00 [WRN] Matching HW not found for SubBaselineID: a03c8d7e-33ca-41cb-9ab7-b2b1008523e9
+2025-05-02 19:17:36.086 +02:00 [WRN] Matching HW not found for SubBaselineID: 6dd57658-2c91-4e86-b4e7-b2b100864cac
+2025-05-02 19:17:36.170 +02:00 [WRN] Matching HW not found for SubBaselineID: 2e05d62e-c8ee-42f2-8735-b2720097db79
+2025-05-02 19:17:36.246 +02:00 [WRN] Matching HW not found for SubBaselineID: 4233adc1-1b6c-4ded-9ffd-b2b2009d3660
+2025-05-02 19:17:36.326 +02:00 [WRN] Matching HW not found for SubBaselineID: 72d129cf-8203-4b6a-936f-b28200a635fb
+2025-05-02 19:17:36.402 +02:00 [WRN] Matching HW not found for SubBaselineID: 364bf412-33df-4dff-8f54-b2b30042b558
+2025-05-02 19:17:36.488 +02:00 [WRN] Matching HW not found for SubBaselineID: 515af3d3-8bc7-4d80-8fa6-b23c00729cd7
+2025-05-02 19:17:36.607 +02:00 [WRN] Matching HW not found for SubBaselineID: 449df9f7-4c36-4c2a-8c00-b27d00c9f213
+2025-05-02 19:17:36.676 +02:00 [WRN] Matching HW not found for SubBaselineID: 9e551e8f-c7ea-4b84-9b69-b28800fb6b30
+2025-05-02 19:17:36.819 +02:00 [WRN] Matching HW not found for SubBaselineID: 7a989087-10b2-4e2c-83bd-b29e00bf192d
+2025-05-02 19:17:36.888 +02:00 [WRN] Matching HW not found for SubBaselineID: 8bb2e806-9cb9-435d-b688-b2bb010c1f01
+2025-05-02 19:17:36.957 +02:00 [WRN] Matching HW not found for SubBaselineID: f2e6b583-dd8d-4c06-a08b-b2b400d15cef
+2025-05-02 19:17:37.049 +02:00 [WRN] Matching HW not found for SubBaselineID: 363f48f5-b461-4289-8fc8-b2c1007fa692
+2025-05-02 19:17:37.113 +02:00 [WRN] Matching HW not found for SubBaselineID: 0b83a12a-23c6-40cc-909a-b2c100d9b184
+2025-05-02 19:17:37.244 +02:00 [WRN] Matching HW not found for SubBaselineID: 6d9212ae-2a4f-423d-94b8-b2c100250d5b
+2025-05-02 19:17:37.524 +02:00 [WRN] Matching HW not found for SubBaselineID: 1c45c49e-92c3-4c5d-a15d-b2c1002e6fb4
+2025-05-02 19:17:37.613 +02:00 [WRN] Matching HW not found for SubBaselineID: 0f8206fb-f76f-4217-8ff3-b2c200b7c6d9
+2025-05-02 19:17:41.373 +02:00 [WRN] Matching HW not found for SubBaselineID: 4d28c700-d24b-47ce-8b9b-b2c200968b4c
+2025-05-02 19:17:41.457 +02:00 [WRN] Matching HW not found for SubBaselineID: 2827b0cd-cb70-46f4-9597-b2a500d30351
+2025-05-02 19:17:41.538 +02:00 [WRN] Matching HW not found for SubBaselineID: 483c5b9a-b1dc-455e-a4fb-b2a500d3050e
+2025-05-02 19:17:41.637 +02:00 [WRN] Matching HW not found for SubBaselineID: 40e7a4eb-7369-42d5-a7f2-b2b4005e25bf
+2025-05-02 19:17:41.750 +02:00 [WRN] Matching HW not found for SubBaselineID: dd0b401a-b704-4a23-aded-b2c700e303a5
+2025-05-02 19:17:41.855 +02:00 [WRN] Matching HW not found for SubBaselineID: 642b50a0-fd21-4aa9-859c-b2c700e308b4
+2025-05-02 19:17:41.956 +02:00 [WRN] Matching HW not found for SubBaselineID: d751b520-09ce-4bb5-954f-b2c700e30b10
+2025-05-02 19:17:42.474 +02:00 [WRN] Matching HW not found for SubBaselineID: 35ecddc3-335d-4a08-90ca-b2c000c1912b
+2025-05-02 19:17:42.644 +02:00 [WRN] Matching HW not found for SubBaselineID: 8d88b82b-1a33-4f1a-9e5e-b2c800f52252
+2025-05-02 19:17:42.734 +02:00 [WRN] Matching HW not found for SubBaselineID: c5638384-6f36-4f6e-a6f6-b2c901327f57
+2025-05-02 19:17:42.885 +02:00 [WRN] Matching HW not found for SubBaselineID: eb0039fe-aa4a-4e15-81a1-b2c901328019
+2025-05-02 19:17:43.014 +02:00 [WRN] Matching HW not found for SubBaselineID: 46ede24c-ef5e-4f72-ad47-b2c901327fbc
+2025-05-02 19:17:43.088 +02:00 [WRN] Matching HW not found for SubBaselineID: 84f46e6a-e985-4ab8-96f9-b2c90132882b
+2025-05-02 19:17:43.158 +02:00 [WRN] Matching HW not found for SubBaselineID: 886cb13e-6b39-44fd-9454-b2c901328837
+2025-05-02 19:17:43.230 +02:00 [WRN] Matching HW not found for SubBaselineID: 586885ef-5c2c-40cc-bbbd-b2c90132884f
+2025-05-02 19:17:43.309 +02:00 [WRN] Matching HW not found for SubBaselineID: 76f88ec2-9871-4bda-afc8-b2c90134485d
+2025-05-02 19:17:43.384 +02:00 [WRN] Matching HW not found for SubBaselineID: f1d7c030-aa42-484c-aca6-b2c901344862
+2025-05-02 19:17:43.465 +02:00 [WRN] Matching HW not found for SubBaselineID: 7f654f2d-9373-43cb-aa31-b2c90134486f
+2025-05-02 19:17:43.578 +02:00 [WRN] Matching HW not found for SubBaselineID: 21352d9b-198f-45a9-92f1-b2c901344875
+2025-05-02 19:17:43.778 +02:00 [WRN] Matching HW not found for SubBaselineID: 749a7005-dcb7-40e5-8f82-b2c901344883
+2025-05-02 19:17:43.878 +02:00 [INF] Matching HW 945dcd72-8e23-45e5-8dd3-b2c901344889 found for SubBaselineID: 945dcd72-8e23-45e5-8dd3-b2c901344889
+2025-05-02 19:17:43.984 +02:00 [WRN] Matching HW not found for SubBaselineID: 9d4d5dd3-4729-4d8d-b0ed-b2c90134488e
+2025-05-02 19:17:44.082 +02:00 [WRN] Matching HW not found for SubBaselineID: 0744a5c1-d7cd-4e81-8d1b-b2c901344896
+2025-05-02 19:17:44.179 +02:00 [WRN] Matching HW not found for SubBaselineID: 20fb2706-f27f-4d91-8e43-b2c9013448b0
+2025-05-02 19:17:44.283 +02:00 [WRN] Matching HW not found for SubBaselineID: e7776a9e-dc87-4f0f-aecf-b2c9013448ba
+2025-05-02 19:17:44.347 +02:00 [WRN] Matching HW not found for SubBaselineID: e7f358ba-8c0c-4239-817a-b2ca0086f693
+2025-05-02 19:17:44.528 +02:00 [WRN] Matching HW not found for SubBaselineID: c306afb8-6434-4ebe-9469-b2a400b966d0
+2025-05-02 19:17:44.604 +02:00 [WRN] Matching HW not found for SubBaselineID: a2516630-1f8b-468c-bb9a-b2b800d0e551
+2025-05-02 19:17:44.679 +02:00 [WRN] Matching HW not found for SubBaselineID: 9e37383f-7f0f-4862-9f13-b2ca00c22739
+2025-05-02 19:17:44.752 +02:00 [WRN] Matching HW not found for SubBaselineID: 42bf6feb-0aae-46f9-a0ed-b29100835caa
+2025-05-02 19:17:44.822 +02:00 [WRN] Matching HW not found for SubBaselineID: 49f808ef-edf8-4d01-9680-b2910093df93
+2025-05-02 19:17:44.940 +02:00 [WRN] Matching HW not found for SubBaselineID: 469d95d7-1d87-4434-9433-b2bc00887fe8
+2025-05-02 19:17:45.143 +02:00 [WRN] Matching HW not found for SubBaselineID: 9d101bf6-4980-4640-bb0c-b2cb009bc078
+2025-05-02 19:17:45.220 +02:00 [WRN] Matching HW not found for SubBaselineID: 43645fc0-e378-4d4a-935b-b2ca009107ea
+2025-05-02 19:17:45.589 +02:00 [WRN] Matching HW not found for SubBaselineID: 23168d79-e137-4063-8b6f-b2cf00c31522
+2025-05-02 19:17:45.679 +02:00 [WRN] Matching HW not found for SubBaselineID: 4170f152-7636-4baa-a51d-b2cf00ce8846
+2025-05-02 19:17:45.771 +02:00 [WRN] Matching HW not found for SubBaselineID: 789bf356-e8b2-49dd-92b6-b2cf00ceb744
+2025-05-02 19:17:58.132 +02:00 [INF] Input Path: ./output/test_object_config.json
+2025-05-02 19:17:58.132 +02:00 [INF] File Extension: .json
+2025-05-02 19:17:58.132 +02:00 [INF] File Directory: .\output
+2025-05-02 19:17:58.132 +02:00 [INF] New File Name: test_object_config_20250502_191758.json
+2025-05-02 19:17:58.132 +02:00 [INF] New File Path: .\output\test_object_config_20250502_191758.json
+2025-05-02 19:17:58.133 +02:00 [INF] Generated JSON file: .\output\test_object_config_20250502_191758.json

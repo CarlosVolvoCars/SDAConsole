@@ -1,0 +1,12 @@
+{
+    "BaseUrl_Prod": "https://confighub.volvocars.net",
+    "SessionUrl": "/api/v1/session",
+    "GetBaselineByNameUrl": "/api/v1/baselines/<BaselineName>/LatestVersion?released=true&includeBlockedBaseline=false",
+    "GetCompatibleHardwareFromBaselineByIDUrl": "/api/v1/EcuHardware/CompatibleHardware/<BaselineID>",
+    "GetCompatibleSoftwareFromBaselineByIDUrl": "/api/v1/EcuHardware/CompatibleSoftware/<BaselineID>",
+    "TimeoutInSecs": 30,
+    "UserName": "E9492100",
+    "Password": "Csei_001",
+    "TargetBaselineName": "SPA2_INT",
+    "TargetBaselineID": "<BaselineID>"
+}

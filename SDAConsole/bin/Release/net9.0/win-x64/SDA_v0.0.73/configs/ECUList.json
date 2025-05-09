@@ -1,0 +1,1822 @@
+﻿[
+  {
+    "EcuAlias": "AAC",
+    "EcuName": "Advanced Air Cleaner",
+    "EcuAddress": "0x1A68",
+    "EcuAddressDecimal": 6760,
+    "LinNode": "Yes",
+    "carcomPosition":  140
+  },
+  {
+    "EcuAlias": "ACCM",
+    "EcuName": "Air Condition Control Module",
+    "EcuAddress": "0x1657",
+    "EcuAddressDecimal": 5719,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ADWM",
+    "EcuName": "Autonomous Drive Washer Module",
+    "EcuAddress": "0x1D31",
+    "EcuAddressDecimal": 7473,
+    "LinNode": "No",
+    "carcomPosition":  114
+  },
+  {
+    "EcuAlias": "AGM",
+    "EcuName": "​Active Grill shutter Module",
+    "EcuAddress": "0x1D2D",
+    "EcuAddressDecimal": 7469,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "AQSM",
+    "EcuName": "Air Quality Sensor Module",
+    "EcuAddress": "0x1D3A",
+    "EcuAddressDecimal": 7482,
+    "LinNode": "No",
+    "carcomPosition":  139
+  },
+  {
+    "EcuAlias": "APMS",
+    "EcuName": "Airborne Particulate Matter Sensor",
+    "EcuAddress": "0x1B42",
+    "EcuAddressDecimal": 6978,
+    "LinNode": "Yes",
+    "carcomPosition":  141
+  },
+  {
+    "EcuAlias": "ATM",
+    "EcuName": "Auxiliary Telematics Module",
+    "EcuAddress": "0x1F11",
+    "EcuAddressDecimal": 7953,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ASSM",
+    "EcuName": "Active Spoiler Shutter Module",
+    "EcuAddress": "0x1D3D",
+    "EcuAddressDecimal": 7485,
+    "LinNode": "No",
+    "carcomPosition":  126
+  },
+  {
+    "EcuAlias": "ASWM",
+    "EcuName": "Adjustable Steering Wheel Module",
+    "EcuAddress": "0x1D06",
+    "EcuAddressDecimal": 7430,
+    "LinNode": "No",
+    "carcomPosition":  22
+  },
+  {
+    "EcuAlias": "BCMA",
+    "EcuName": "Brake Control Module A",
+    "EcuAddress": "0x16A1",
+    "EcuAddressDecimal": 5793,
+    "LinNode": "No",
+    "carcomPosition":  7,
+    "TypeDesignation": [
+      100,
+      110
+    ]
+  },
+  {
+    "EcuAlias": "BCPM",
+    "EcuName": "Battery Coolant Pump Module",
+    "EcuAddress": "0x16D2",
+    "EcuAddressDecimal": 5842,
+    "LinNode": "Yes",
+    "carcomPosition":  187
+  },
+  {
+    "EcuAlias": "SGA",
+    "EcuName": "Secure Gateway A",
+    "EcuAddress": "0x1D24",
+    "EcuAddressDecimal": 7460,
+    "LinNode": "No",
+    "carcomPosition":  170
+  },
+  {
+    "EcuAlias": "BPD",
+    "EcuName": "Back Power Distribution",
+    "EcuAddress": "0x1D2C",
+    "EcuAddressDecimal": 7468,
+    "LinNode": "No",
+    "carcomPosition":  15
+  },
+  {
+    "EcuAlias": "LPA",
+    "EcuName": "Low Power CPU A",
+    "EcuAddress": "0x1D1A",
+    "EcuAddressDecimal": 7450,
+    "LinNode": "No",
+    "carcomPosition":  178
+  },
+  {
+    "EcuAlias": "BMSA",
+    "EcuName": "Battery Monitoring Sensor Module A",
+    "EcuAddress": "0x16C3",
+    "EcuAddressDecimal": 5827,
+    "LinNode": "No",
+    "carcomPosition":  85
+  },
+  {
+    "EcuAlias": "BTLL",
+    "EcuName": "Body Tail Light Left",
+    "EcuAddress": "0x1B74",
+    "EcuAddressDecimal": 7028,
+    "LinNode": "Yes",
+    "carcomPosition":  148
+  },
+  {
+    "EcuAlias": "BTLR",
+    "EcuName": "Body Tail Light Right",
+    "EcuAddress": "0x1B75",
+    "EcuAddressDecimal": 7029,
+    "LinNode": "Yes",
+    "carcomPosition":  147
+  },
+  {
+    "EcuAlias": "CCPM",
+    "EcuName": "Compartment Coolant Pump Module",
+    "EcuAddress": "0x16D3",
+    "EcuAddressDecimal": 5843,
+    "LinNode": "Yes",
+    "carcomPosition":  186
+  },
+  {
+    "EcuAlias": "CCVM",
+    "EcuName": "Climate Coolant Valve Module",
+    "EcuAddress": "0x1D4A",
+    "EcuAddressDecimal": 7498,
+    "LinNode": "Yes",
+    "carcomPosition":  184
+  },
+  {
+    "EcuAlias": "CBVM",
+    "EcuName": "Coolant Bypass Valve Module",
+    "EcuAddress": "0x1D48",
+    "EcuAddressDecimal": 7496,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "HPA",
+    "EcuName": "High Performance CPU A",
+    "EcuAddress": "0x1D12",
+    "EcuAddressDecimal": 7442,
+    "LinNode": "No",
+    "carcomPosition":  176
+  },
+  {
+    "EcuAlias": "HIB",
+    "EcuName": "High Integrity CPU B",
+    "EcuAddress": "0x1D0E",
+    "EcuAddressDecimal": 7438,
+    "LinNode": "No",
+    "carcomPosition":  168
+  },
+  {
+    "EcuAlias": "HIA",
+    "EcuName": "High Integrity CPU A",
+    "EcuAddress": "0x1D0D",
+    "EcuAddressDecimal": 7437,
+    "LinNode": "No",
+    "carcomPosition":  169
+  },
+  {
+    "EcuAlias": "CPED",
+    "EcuName": "Coolant Pump for Electric Drive",
+    "EcuAddress": "0x16D4",
+    "EcuAddressDecimal": 5844,
+    "LinNode": "Yes",
+    "carcomPosition":  185
+  },
+  {
+    "EcuAlias": "CPM",
+    "EcuName": "Combustion Preheater Module",
+    "EcuAddress": "0x1A7A",
+    "EcuAddressDecimal": 6778,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DDS",
+    "EcuName": "Driver Door Switches",
+    "EcuAddress": "0x1A22",
+    "EcuAddressDecimal": 6690,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DGWA",
+    "EcuName": "Left Gateway module A",
+    "EcuAddress": "0x1D15",
+    "EcuAddressDecimal": 7445,
+    "LinNode": "No",
+    "carcomPosition":  161
+  },
+  {
+    "EcuAlias": "IHRA",
+    "EcuName": "Inverter High Voltage Rear Axle",
+    "EcuAddress": "0x1637",
+    "EcuAddressDecimal": 5687,
+    "LinNode": "No",
+    "carcomPosition":  13,
+    "TypeDesignation": [
+      100,
+      110
+    ]
+  },
+  {
+    "EcuAlias": "HVBM",
+    "EcuName": "High Voltage Battery Module",
+    "EcuAddress": "0x1D13",
+    "EcuAddressDecimal": 7443,
+    "LinNode": "No",
+    "carcomPosition":  127
+  },
+  {
+    "EcuAlias": "DGWM",
+    "EcuName": "Left GateWay Module",
+    "EcuAddress": "0x1D19",
+    "EcuAddressDecimal": 7449,
+    "LinNode": "No",
+    "carcomPosition":  162
+  },
+  {
+    "EcuAlias": "DLPL",
+    "EcuName": "Digital Light Processing Left",
+    "EcuAddress": "0x1D04",
+    "EcuAddressDecimal": 7428,
+    "LinNode": "No",
+    "carcomPosition":  144
+  },
+  {
+    "EcuAlias": "DLPR",
+    "EcuName": "Digital Light Processing Right",
+    "EcuAddress": "0x1D05",
+    "EcuAddressDecimal": 7429,
+    "LinNode": "No",
+    "carcomPosition":  143
+  },
+  {
+    "EcuAlias": "FGWA",
+    "EcuName": "Front Gateway module A",
+    "EcuAddress": "0x1D0B",
+    "EcuAddressDecimal": 7435,
+    "LinNode": "No",
+    "carcomPosition":  160
+  },
+  {
+    "EcuAlias": "FGWM",
+    "EcuName": "Front Gateway Module",
+    "EcuAddress": "0x1D07",
+    "EcuAddressDecimal": 7431,
+    "LinNode": "No",
+    "carcomPosition":  166
+  },
+  {
+    "EcuAlias": "FIOC",
+    "EcuName": "Front IO Controller",
+    "EcuAddress": "0x1D08",
+    "EcuAddressDecimal": 7432,
+    "LinNode": "No",
+    "carcomPosition":  158
+  },
+  {
+    "EcuAlias": "FLL",
+    "EcuName": "Forward Looking Lidar",
+    "EcuAddress": "0x1D35",
+    "EcuAddressDecimal": 7477,
+    "LinNode": "No",
+    "carcomPosition":  68
+  },
+  {
+    "EcuAlias": "FMDM",
+    "EcuName": "Foot Movement Detection Module",
+    "EcuAddress": "0x1B62",
+    "EcuAddressDecimal": 7010,
+    "LinNode": "Yes",
+    "carcomPosition":  89
+  },
+  {
+    "EcuAlias": "GHCM",
+    "EcuName": "Grid to High voltage Converter Module",
+    "EcuAddress": "0x1D0C",
+    "EcuAddressDecimal": 7436,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "IDDA",
+    "EcuName": "Illumination Driver door A component",
+    "EcuAddress": "0x1D55",
+    "EcuAddressDecimal": 7509,
+    "LinNode": "No",
+    "carcomPosition":  198
+  },
+  {
+    "EcuAlias": "IFA",
+    "EcuName": "Illumination Floor A component",
+    "EcuAddress": "0x1D57",
+    "EcuAddressDecimal": 7511,
+    "LinNode": "No",
+    "carcomPosition":  196
+  },
+  {
+    "EcuAlias": "IIPA",
+    "EcuName": "Illumination IP A component",
+    "EcuAddress": "0x1D58",
+    "EcuAddressDecimal": 7512,
+    "LinNode": "No",
+    "carcomPosition":  199
+  },
+  {
+    "EcuAlias": "IPDA",
+    "EcuName": "Illumination Passenger door A component",
+    "EcuAddress": "0x1D5A",
+    "EcuAddressDecimal": 7514,
+    "LinNode": "No",
+    "carcomPosition":  193
+  },
+  {
+    "EcuAlias": "IRPA",
+    "EcuName": "Illumination Rear Passanger A component",
+    "EcuAddress": "0x1D5B",
+    "EcuAddressDecimal": 7515,
+    "LinNode": "No",
+    "carcomPosition":  195
+  },
+  {
+    "EcuAlias": "ITA",
+    "EcuName": "Illumination Tunnel A component",
+    "EcuAddress": "0x1D60",
+    "EcuAddressDecimal": 7520,
+    "LinNode": "No",
+    "carcomPosition":  194
+  },
+  {
+    "EcuAlias": "IRA",
+    "EcuName": "Illumination Roof A",
+    "EcuAddress": "0x1D4E",
+    "EcuAddressDecimal": 7502,
+    "LinNode": "No",
+    "carcomPosition":  197
+  },
+  {
+    "EcuAlias": "HBMF",
+    "EcuName": "HVAC Blower Module Front",
+    "EcuAddress": "0x1A60",
+    "EcuAddressDecimal": 6752,
+    "LinNode": "Yes",
+    "carcomPosition":  133
+  },
+  {
+    "EcuAlias": "HBMR",
+    "EcuName": "HVAC Blower Module Rear",
+    "EcuAddress": "0x1A61",
+    "EcuAddressDecimal": 6753,
+    "LinNode": "Yes",
+    "carcomPosition":  132
+  },
+  {
+    "EcuAlias": "HLCA",
+    "EcuName": "High voltage to Low voltage Converter module A",
+    "EcuAddress": "0x1D0F",
+    "EcuAddressDecimal": 7439,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "HLCM",
+    "EcuName": "High to Low voltage Converter Module",
+    "EcuAddress": "0x1D10",
+    "EcuAddressDecimal": 7440,
+    "LinNode": "No",
+    "carcomPosition":  120
+  },
+  {
+    "EcuAlias": "HUS",
+    "EcuName": "Humidity Sensor",
+    "EcuAddress": "0x1A72",
+    "EcuAddressDecimal": 6770,
+    "LinNode": "Yes",
+    "carcomPosition":  130
+  },
+  {
+    "EcuAlias": "HVCH",
+    "EcuName": "High Voltage Coolant Heater",
+    "EcuAddress": "0x1D32",
+    "EcuAddressDecimal": 7474,
+    "LinNode": "Yes",
+    "carcomPosition":  30
+  },
+  {
+    "EcuAlias": "IRMM",
+    "EcuName": "Interior Rear view Mirror Module",
+    "EcuAddress": "0x1B13",
+    "EcuAddressDecimal": 6931,
+    "LinNode": "Yes",
+    "carcomPosition":  115
+  },
+  {
+    "EcuAlias": "LCSP",
+    "EcuName": "Luggage Compartment Switch Panel",
+    "EcuAddress": "0x1D5C",
+    "EcuAddressDecimal": 7516,
+    "LinNode": "Yes",
+    "carcomPosition":  112
+  },
+  {
+    "EcuAlias": "LPC",
+    "EcuName": "Low Power Controller",
+    "EcuAddress": "0x1D1B",
+    "EcuAddressDecimal": 7451,
+    "LinNode": "Yes",
+    "carcomPosition":  171
+  },
+  {
+    "EcuAlias": "PGWA",
+    "EcuName": "Right Gateway module A",
+    "EcuAddress": "0x1D16",
+    "EcuAddressDecimal": 7446,
+    "LinNode": "No",
+    "carcomPosition":  159
+  },
+  {
+    "EcuAlias": "PGWM",
+    "EcuName": "Right GateWay Module",
+    "EcuAddress": "0x1D20",
+    "EcuAddressDecimal": 7456,
+    "LinNode": "No",
+    "carcomPosition":  164
+  },
+  {
+    "EcuAlias": "PPD",
+    "EcuName": "Passenger side Power Distribution",
+    "EcuAddress": "0x1D21",
+    "EcuAddressDecimal": 7457,
+    "LinNode": "No",
+    "carcomPosition":  14
+  },
+  {
+    "EcuAlias": "RCSM",
+    "EcuName": "Rear Console Switch Module",
+    "EcuAddress": "0x1264",
+    "EcuAddressDecimal": 4708,
+    "LinNode": "Yes",
+    "carcomPosition":  111
+  },
+  {
+    "EcuAlias": "RLSM",
+    "EcuName": "Rain and Light Sensor Module",
+    "EcuAddress": "0x1B11",
+    "EcuAddressDecimal": 6929,
+    "LinNode": "Yes",
+    "carcomPosition":  116
+  },
+  {
+    "EcuAlias": "RPDM",
+    "EcuName": "Rear Passenger Door Module",
+    "EcuAddress": "0x1D3B",
+    "EcuAddressDecimal": 7483,
+    "LinNode": "No",
+    "carcomPosition":  94
+  },
+  {
+    "EcuAlias": "RSRL",
+    "EcuName": "Rear Side Radar Left",
+    "EcuAddress": "0x1D22",
+    "EcuAddressDecimal": 7458,
+    "LinNode": "No",
+    "carcomPosition":  74
+  },
+  {
+    "EcuAlias": "RSRR",
+    "EcuName": "Rear Side Radar Right",
+    "EcuAddress": "0x1D23",
+    "EcuAddressDecimal": 7459,
+    "LinNode": "No",
+    "carcomPosition":  71
+  },
+  {
+    "EcuAlias": "SCMD",
+    "EcuName": "Seat Comfort Module Driver",
+    "EcuAddress": "0x1A53",
+    "EcuAddressDecimal": 6739,
+    "LinNode": "Yes",
+    "carcomPosition":  67
+  },
+  {
+    "EcuAlias": "SCMP",
+    "EcuName": "Seat Comfort Module Passenger",
+    "EcuAddress": "0x1A43",
+    "EcuAddressDecimal": 6723,
+    "LinNode": "Yes",
+    "carcomPosition":  66
+  },
+  {
+    "EcuAlias": "SUS",
+    "EcuName": "Sun Sensor",
+    "EcuAddress": "0x1B92",
+    "EcuAddressDecimal": 7058,
+    "LinNode": "Yes",
+    "carcomPosition":  129
+  },
+  {
+    "EcuAlias": "TTLL",
+    "EcuName": "Trunk lid Tail Light Left",
+    "EcuAddress": "0x1B76",
+    "EcuAddressDecimal": 7030,
+    "LinNode": "Yes",
+    "carcomPosition":  146
+  },
+  {
+    "EcuAlias": "TTLR",
+    "EcuName": "Trunk lid Tail Light Right",
+    "EcuAddress": "0x1B77",
+    "EcuAddressDecimal": 7031,
+    "LinNode": "Yes",
+    "carcomPosition":  149
+  },
+  {
+    "EcuAlias": "TVRL",
+    "EcuName": "Torque Vectoring Rear Left",
+    "EcuAddress": "0x1D75",
+    "EcuAddressDecimal": 7541,
+    "LinNode": "No",
+    "carcomPosition":  11
+  },
+  {
+    "EcuAlias": "TVRR",
+    "EcuName": "Torque Vectoring Rear Right",
+    "EcuAddress": "0x1D76",
+    "EcuAddressDecimal": 7542,
+    "LinNode": "No",
+    "carcomPosition":  12
+  },
+  {
+    "EcuAlias": "WMM",
+    "EcuName": "Wiper Motor Module",
+    "EcuAddress": "0x1B12",
+    "EcuAddressDecimal": 6930,
+    "LinNode": "Yes",
+    "carcomPosition":  117
+  },
+  {
+    "EcuAlias": "CCMB",
+    "EcuName": "Climate Control Module B",
+    "EcuAddress": "0x1A11",
+    "EcuAddressDecimal": 6673,
+    "LinNode": "No",
+    "carcomPosition":  134,
+    "TypeDesignation": [
+      100,
+      110
+    ]
+  },
+  {
+    "EcuAlias": "AGU",
+    "EcuName": "Accessory Gateway Unit",
+    "EcuAddress": "0x1203",
+    "EcuAddressDecimal": 4611,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ASDM",
+    "EcuName": "Active Safety Domain Master",
+    "EcuAddress": "0x1401",
+    "EcuAddressDecimal": 5121,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "AUD",
+    "EcuName": "Audio Module",
+    "EcuAddress": "0x1212",
+    "EcuAddressDecimal": 4626,
+    "LinNode": "No",
+    "carcomPosition":  17
+  },
+  {
+    "EcuAlias": "AWM",
+    "EcuName": "Active Wing Module",
+    "EcuAddress": "0x16D1",
+    "EcuAddressDecimal": 5841,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "BBM",
+    "EcuName": "Brake Booster Module",
+    "EcuAddress": "0x1617",
+    "EcuAddressDecimal": 5655,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "BBS",
+    "EcuName": "Battery Backed-up Sounder",
+    "EcuAddress": "0x1B51",
+    "EcuAddressDecimal": 6993,
+    "LinNode": "Yes",
+    "carcomPosition":  87
+  },
+  {
+    "EcuAlias": "BBS",
+    "EcuName": "Battery Backed-up Sounder",
+    "EcuAddress": "0x1D3E",
+    "EcuAddressDecimal": 7486,
+    "LinNode": "Yes",
+    "TypeDesignation": [
+      100,
+      110
+    ]
+  },
+  {
+    "EcuAlias": "BCM",
+    "EcuName": "Brake Control Module",
+    "EcuAddress": "0x1631",
+    "EcuAddressDecimal": 5681,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "BCM2",
+    "EcuName": "Brake Control Module 2",
+    "EcuAddress": "0x16A1",
+    "EcuAddressDecimal": 5793,
+    "LinNode": "No",
+    "TypeDesignation": [
+      40,
+      41,
+      42,
+      46,
+      26,
+      27
+    ]
+  },
+  {
+    "EcuAlias": "BECM",
+    "EcuName": "Battery Energy Control Module",
+    "EcuAddress": "0x1635",
+    "EcuAddressDecimal": 5685,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "BMS",
+    "EcuName": "Battery Monitoring Sensor",
+    "EcuAddress": "0x1B61",
+    "EcuAddressDecimal": 7009,
+    "LinNode": "Yes",
+    "carcomPosition":  86
+  },
+  {
+    "EcuAlias": "CCM",
+    "EcuName": "Climate Control Module",
+    "EcuAddress": "0x1A11",
+    "EcuAddressDecimal": 6673,
+    "LinNode": "No",
+    "TypeDesignation": [
+      26,
+      27,
+      40,
+      41,
+      42,
+      46
+    ]
+  },
+  {
+    "EcuAlias": "CEM",
+    "EcuName": "Central Electronic Module",
+    "EcuAddress": "0x1A01",
+    "EcuAddressDecimal": 6657,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "CSD",
+    "EcuName": "Centre Stack Display",
+    "EcuAddress": "0x1241",
+    "EcuAddressDecimal": 4673,
+    "LinNode": "Yes",
+    "carcomPosition":  104
+  },
+  {
+    "EcuAlias": "DDM",
+    "EcuName": "Driver Door Module",
+    "EcuAddress": "0x1A12",
+    "EcuAddressDecimal": 6674,
+    "LinNode": "No",
+    "carcomPosition":  97
+  },
+  {
+    "EcuAlias": "DEM",
+    "EcuName": "Differential Electronic Module",
+    "EcuAddress": "0x1638",
+    "EcuAddressDecimal": 5688,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DIM",
+    "EcuName": "Driver Information Module",
+    "EcuAddress": "0x1801",
+    "EcuAddressDecimal": 6145,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DIMD",
+    "EcuName": "Driver Information Module Display",
+    "EcuAddress": "0x1D4B",
+    "EcuAddressDecimal": 7499,
+    "LinNode": "No",
+    "carcomPosition":  102
+  },
+  {
+    "EcuAlias": "DHUM",
+    "EcuName": "Display Head Unit Media",
+    "EcuAddress": "0x1205",
+    "EcuAddressDecimal": 4613,
+    "LinNode": "No",
+    "carcomPosition":  51
+  },
+  {
+    "EcuAlias": "DHUH",
+    "EcuName": "Display Head Unit Housekeeping",
+    "EcuAddress": "0x1206",
+    "EcuAddressDecimal": 4614,
+    "LinNode": "No",
+    "carcomPosition":  50
+  },
+  {
+    "EcuAlias": "DMCD",
+    "EcuName": "Driver Monitoring Camera DIM",
+    "EcuAddress": "0x1D4C",
+    "EcuAddressDecimal": 7500,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DMCI",
+    "EcuName": "Driver Monitoring Camera Instrument Panel",
+    "EcuAddress": "0x1D4D",
+    "EcuAddressDecimal": 7501,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DMDF",
+    "EcuName": "Door drive Module Driver Front",
+    "EcuAddress": "0x1A29",
+    "EcuAddressDecimal": 6697,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DMDR",
+    "EcuName": "Door drive Module Driver Rear",
+    "EcuAddress": "0x1A2A",
+    "EcuAddressDecimal": 6698,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DMM",
+    "EcuName": "Driver Monitor Module",
+    "EcuAddress": "0x1415",
+    "EcuAddressDecimal": 5141,
+    "LinNode": "No",
+    "carcomPosition":  209
+  },
+  {
+    "EcuAlias": "DMPF",
+    "EcuName": "Door drive Module Passenger Front",
+    "EcuAddress": "0x1A89",
+    "EcuAddressDecimal": 6793,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "DMPR",
+    "EcuName": "Door drive Module Passenger Rear",
+    "EcuAddress": "0x1A8A",
+    "EcuAddressDecimal": 6794,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "EAM",
+    "EcuName": "Extended Accessory Module ",
+    "EcuAddress": "0x1B98",
+    "EcuAddressDecimal": 7064,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ECM",
+    "EcuName": "Engine Control Module",
+    "EcuAddress": "0x1630",
+    "EcuAddressDecimal": 5680,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ECCM",
+    "EcuName": "Electric Charge Air Compressor Module ",
+    "EcuAddress": "0x169C",
+    "EcuAddressDecimal": 5788,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "EGSM",
+    "EcuName": "Electronic Gear Selector Module",
+    "EcuAddress": "0x1633",
+    "EcuAddressDecimal": 5683,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "EVAM",
+    "EcuName": "Exhaust system Valve Actuator Middle",
+    "EcuAddress": "0x1D50",
+    "EcuAddressDecimal": 7504,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "EPP",
+    "EcuName": "EVAP Purge Pump",
+    "EcuAddress": "0x1652",
+    "EcuAddressDecimal": 5714,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "EMRL",
+    "EcuName": "Electric Machine Rear Left",
+    "EcuAddress": "0x163B",
+    "EcuAddressDecimal": 5691,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "EMRR",
+    "EcuName": "Electric Machine Rear Right",
+    "EcuAddress": "0x163E",
+    "EcuAddressDecimal": 5694,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ETCM",
+    "EcuName": "Electronic Toll Collect Module",
+    "EcuAddress": "0x1D83",
+    "EcuAddressDecimal": 7555,
+    "LinNode": "No",
+    "carcomPosition":  47
+  },
+  {
+    "EcuAlias": "ERM",
+    "EcuName": "Electrochromic Roof Module",
+    "EcuAddress": "0x1B29",
+    "EcuAddressDecimal": 6953,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ESM",
+    "EcuName": "Exterior Sound Module",
+    "EcuAddress": "0x163A",
+    "EcuAddressDecimal": 5690,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ESMR",
+    "EcuName": "Exterior Sound Module Rear",
+    "EcuAddress": "0x143A",
+    "EcuAddressDecimal": 5178,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "FLC",
+    "EcuName": "Forward Looking Camera ",
+    "EcuAddress": "0x1442",
+    "EcuAddressDecimal": 5186,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "FLC2",
+    "EcuName": "Forward Looking Camera 2",
+    "EcuAddress": "0x1421",
+    "EcuAddressDecimal": 5153,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "FLCW",
+    "EcuName": "Forward Looking Camera Wide range",
+    "EcuAddress": "0x1D53",
+    "EcuAddressDecimal": 7507,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "FLR",
+    "EcuName": "Forward Looking Radar ",
+    "EcuAddress": "0x1451",
+    "EcuAddressDecimal": 5201,
+    "LinNode": "No",
+    "carcomPosition":  72
+  },
+  {
+    "EcuAlias": "FRM",
+    "EcuName": "Front Radar Module ",
+    "EcuAddress": "0x1444",
+    "EcuAddressDecimal": 5188,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "FSRL",
+    "EcuName": "Front Side Radar Left",
+    "EcuAddress": "0x1471",
+    "EcuAddressDecimal": 5233,
+    "LinNode": "No",
+    "carcomPosition":  73
+  },
+  {
+    "EcuAlias": "FSRR",
+    "EcuName": "Front Side Radar Right",
+    "EcuAddress": "0x1481",
+    "EcuAddressDecimal": 5249,
+    "LinNode": "No",
+    "carcomPosition":  70
+  },
+  {
+    "EcuAlias": "GCCC",
+    "EcuName": "Grid Communication Charging Controller",
+    "EcuAddress": "0x1D7E",
+    "EcuAddressDecimal": 7550,
+    "LinNode": "No",
+    "carcomPosition":  121
+  },
+  {
+    "EcuAlias": "GHCA",
+    "EcuName": "Grid to High voltage Conversion A",
+    "EcuAddress": "0x1D7F",
+    "EcuAddressDecimal": 7551,
+    "LinNode": "No",
+    "carcomPosition":  122
+  },
+  {
+    "EcuAlias": "GSM",
+    "EcuName": "Gear Selector Module",
+    "EcuAddress": "0x1661",
+    "EcuAddressDecimal": 5729,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "HBM1",
+    "EcuName": "High voltage Battery Module 1",
+    "EcuAddress": "0x1641",
+    "EcuAddressDecimal": 5697,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "HBM2",
+    "EcuName": "High voltage Battery Module 2",
+    "EcuAddress": "0x1642",
+    "EcuAddressDecimal": 5698,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "HBM3",
+    "EcuName": "High voltage Battery Module 3",
+    "EcuAddress": "0x1643",
+    "EcuAddressDecimal": 5699,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "HCML",
+    "EcuName": "Headlamp Control Module Left",
+    "EcuAddress": "0x1BB3",
+    "EcuAddressDecimal": 7091,
+    "LinNode": "No",
+    "carcomPosition":  145
+  },
+  {
+    "EcuAlias": "HCMR",
+    "EcuName": "Headlamp Control Module Right",
+    "EcuAddress": "0x1BB4",
+    "EcuAddressDecimal": 7092,
+    "LinNode": "No",
+    "carcomPosition":  142
+  },
+  {
+    "EcuAlias": "HMCM",
+    "EcuName": "High voltage Medium voltage Converter Module",
+    "EcuAddress": "0x1D11",
+    "EcuAddressDecimal": 7441,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "HUD",
+    "EcuName": "Head Up Display",
+    "EcuAddress": "0x1841",
+    "EcuAddressDecimal": 6209,
+    "LinNode": "Yes",
+    "carcomPosition":  103
+  },
+  {
+    "EcuAlias": "IEM",
+    "EcuName": "Inverter ERAD Module",
+    "EcuAddress": "0x1637",
+    "EcuAddressDecimal": 5687,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "IGM",
+    "EcuName": "Inverter Generator Module",
+    "EcuAddress": "0x1636",
+    "EcuAddressDecimal": 5686,
+    "LinNode": "No",
+    "TypeDesignation": [
+      26,
+      27,
+      40,
+      41,
+      42,
+      46
+    ]
+  },
+  {
+    "EcuAlias": "IHFA",
+    "EcuName": "Inverter High Voltage Front Axle",
+    "EcuAddress": "0x1692",
+    "EcuAddressDecimal": 5778,
+    "LinNode": "No",
+    "carcomPosition":  9
+  },
+  {
+    "EcuAlias": "IHU",
+    "EcuName": "Infotainment Head Unit",
+    "EcuAddress": "0x1201",
+    "EcuAddressDecimal": 4609,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "IMCS",
+    "EcuName": "Inverter Medium Voltage Crank Shaft",
+    "EcuAddress": "0x1D17",
+    "EcuAddressDecimal": 7447,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "IMS",
+    "EcuName": "Interior Motion Sensor",
+    "EcuAddress": "0x1B52",
+    "EcuAddressDecimal": 6994,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "ISGM",
+    "EcuName": "Integrated Starter Generator Module ",
+    "EcuAddress": "0x1691",
+    "EcuAddressDecimal": 5777,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "LVBM",
+    "EcuName": "Low Voltage Battery Module",
+    "EcuAddress": "0x1B64",
+    "EcuAddressDecimal": 7012,
+    "LinNode": "Yes",
+    "carcomPosition":  83
+  },
+  {
+    "EcuAlias": "MLCA",
+    "EcuName": "Mid voltage to Low voltage Converter module A",
+    "EcuAddress": "0x1D1D",
+    "EcuAddressDecimal": 7453,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "MLCM",
+    "EcuName": "Mid voltage to Low voltage Converter Module",
+    "EcuAddress": "0x1D1E",
+    "EcuAddressDecimal": 7454,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "MSM",
+    "EcuName": "Media Switch Module",
+    "EcuAddress": "0x1D62",
+    "EcuAddressDecimal": 7522,
+    "LinNode": "No",
+    "carcomPosition":  108
+  },
+  {
+    "EcuAlias": "MVBM",
+    "EcuName": "Mid Voltage Battery Module ",
+    "EcuAddress": "0x16B1",
+    "EcuAddressDecimal": 5809,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "MVCM",
+    "EcuName": "Mid Voltage Converter Module ",
+    "EcuAddress": "0x1681",
+    "EcuAddressDecimal": 5761,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "NFCA",
+    "EcuName": "Near Field Communication module A",
+    "EcuAddress": "0x1D63",
+    "EcuAddressDecimal": 7523,
+    "LinNode": "No",
+    "carcomPosition":  98
+  },
+  {
+    "EcuAlias": "NRCM",
+    "EcuName": "NOx Reduction Control Module",
+    "EcuAddress": "0x163D",
+    "EcuAddressDecimal": 5693,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "OBC",
+    "EcuName": "On Board Charger",
+    "EcuAddress": "0x1634",
+    "EcuAddressDecimal": 5684,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "OFM",
+    "EcuName": "OBD Firewall Module",
+    "EcuAddress": "0x1639",
+    "EcuAddressDecimal": 5689,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "OHC",
+    "EcuName": "Overhead Console",
+    "EcuAddress": "0x1B22",
+    "EcuAddressDecimal": 6946,
+    "LinNode": "Yes",
+    "carcomPosition":  204
+  },
+  {
+    "EcuAlias": "OHLC",
+    "EcuName": "Overhead Console Luggage Compartment",
+    "EcuAddress": "0x1D7B",
+    "EcuAddressDecimal": 7547,
+    "LinNode": "Yes",
+    "carcomPosition":  202
+  },
+  {
+    "EcuAlias": "OHRL",
+    "EcuName": "Overhead Console Rear Left",
+    "EcuAddress": "0x1D65",
+    "EcuAddressDecimal": 7525,
+    "LinNode": "Yes",
+    "carcomPosition":  203
+  },
+  {
+    "EcuAlias": "OHRR",
+    "EcuName": "Overhead Console Rear Right",
+    "EcuAddress": "0x1D66",
+    "EcuAddressDecimal": 7526,
+    "LinNode": "Yes",
+    "carcomPosition":  205
+  },
+  {
+    "EcuAlias": "OHTR",
+    "EcuName": "Overhead Console Third row Right",
+    "EcuAddress": "0x1D67",
+    "EcuAddressDecimal": 7527,
+    "LinNode": "Yes",
+    "carcomPosition":  201
+  },
+  {
+    "EcuAlias": "OWS",
+    "EcuName": "Occupant Weight Sensor",
+    "EcuAddress": "0x1C42",
+    "EcuAddressDecimal": 7234,
+    "LinNode": "Yes",
+    "carcomPosition":  61
+  },
+  {
+    "EcuAlias": "PAC",
+    "EcuName": "Parking Assist Camera",
+    "EcuAddress": "0x1221",
+    "EcuAddressDecimal": 4641,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "PAK",
+    "EcuName": "Phone As Key",
+    "EcuAddress": "0x1D7D",
+    "EcuAddressDecimal": 7549,
+    "LinNode": "No",
+    "carcomPosition":  18
+  },
+  {
+    "EcuAlias": "PAKM",
+    "EcuName": "Phone As Key Module",
+    "EcuAddress": "0x1B31",
+    "EcuAddressDecimal": 6961,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "PAM",
+    "EcuName": "Parking Assist Module",
+    "EcuAddress": "0x1A02",
+    "EcuAddressDecimal": 6658,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "PDM",
+    "EcuName": "Passenger Door Module",
+    "EcuAddress": "0x1A13",
+    "EcuAddressDecimal": 6675,
+    "LinNode": "No",
+    "carcomPosition":  96
+  },
+  {
+    "EcuAlias": "PDS",
+    "EcuName": "Passenger Door Switches",
+    "EcuAddress": "0x1D68",
+    "EcuAddressDecimal": 7528,
+    "LinNode": "No",
+    "carcomPosition":  110
+  },
+  {
+    "EcuAlias": "POT",
+    "EcuName": "Power Operated Tailgate",
+    "EcuAddress": "0x1A15",
+    "EcuAddressDecimal": 6677,
+    "LinNode": "No",
+    "carcomPosition":  88
+  },
+  {
+    "EcuAlias": "PSC",
+    "EcuName": "Power Steering Control Module",
+    "EcuAddress": "0x162B",
+    "EcuAddressDecimal": 5675,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "PSCB",
+    "EcuName": "Power Steering Control Module Backup",
+    "EcuAddress": "0x162A",
+    "EcuAddressDecimal": 5674,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "PSCM",
+    "EcuName": "Power Steering Control Module",
+    "EcuAddress": "0x1612",
+    "EcuAddressDecimal": 5650,
+    "LinNode": "No",
+    "carcomPosition":  21
+  },
+  {
+    "EcuAlias": "PSMD",
+    "EcuName": "Power Seat Module Driver",
+    "EcuAddress": "0x1A14",
+    "EcuAddressDecimal": 6676,
+    "LinNode": "No",
+    "carcomPosition":  64
+  },
+  {
+    "EcuAlias": "PSMP",
+    "EcuName": "Power Seat Module Passenger",
+    "EcuAddress": "0x1A1A",
+    "EcuAddressDecimal": 6682,
+    "LinNode": "No",
+    "carcomPosition":  65
+  },
+  {
+    "EcuAlias": "PXML",
+    "EcuName": "PiXel light Module Left",
+    "EcuAddress": "0x1BBC",
+    "EcuAddressDecimal": 7100,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "PXMR",
+    "EcuName": "PiXel light Module Right",
+    "EcuAddress": "0x1BBA",
+    "EcuAddressDecimal": 7098,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "RBCM",
+    "EcuName": "Redundant Brake Control Module",
+    "EcuAddress": "0x1629",
+    "EcuAddressDecimal": 5673,
+    "LinNode": "No",
+    "carcomPosition":  6
+  },
+  {
+    "EcuAlias": "RBMS",
+    "EcuName": "Redundant Battery Monitoring Sensor",
+    "EcuAddress": "0x16C3",
+    "EcuAddressDecimal": 5827,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "RDDM",
+    "EcuName": "Rear Driver Door Module",
+    "EcuAddress": "0x1A21",
+    "EcuAddressDecimal": 6689,
+    "LinNode": "Yes",
+    "carcomPosition":  95
+  },
+  {
+    "EcuAlias": "RML",
+    "EcuName": "Restraint Module Left",
+    "EcuAddress": "0x1416",
+    "EcuAddressDecimal": 5142,
+    "LinNode": "No",
+    "carcomPosition":  44
+  },
+  {
+    "EcuAlias": "RMR",
+    "EcuName": "Restraint Module Right",
+    "EcuAddress": "0x1417",
+    "EcuAddressDecimal": 5143,
+    "LinNode": "No",
+    "carcomPosition":  43
+  },
+  {
+    "EcuAlias": "SAS",
+    "EcuName": "Steering Angle Sensor",
+    "EcuAddress": "0x1616",
+    "EcuAddressDecimal": 5654,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SCL",
+    "EcuName": "Steering Column Lock",
+    "EcuAddress": "0x1615",
+    "EcuAddressDecimal": 5653,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SHFL",
+    "EcuName": "Seat Heating Front Left",
+    "EcuAddress": "0x1D6B",
+    "EcuAddressDecimal": 7531,
+    "LinNode": "No",
+    "carcomPosition":  62
+  },
+  {
+    "EcuAlias": "SHFR",
+    "EcuName": "Seat Heating Front Right",
+    "EcuAddress": "0x1D6C",
+    "EcuAddressDecimal": 7532,
+    "LinNode": "No",
+    "carcomPosition":  63
+  },
+  {
+    "EcuAlias": "SHRL",
+    "EcuName": "Seat Heating Rear Left",
+    "EcuAddress": "0x1D6D",
+    "EcuAddressDecimal": 7533,
+    "LinNode": "No",
+    "carcomPosition":  58
+  },
+  {
+    "EcuAlias": "SHRR",
+    "EcuName": "Seat Heating Rear Right",
+    "EcuAddress": "0x1D6E",
+    "EcuAddressDecimal": 7534,
+    "LinNode": "No",
+    "carcomPosition":  59
+  },
+  {
+    "EcuAlias": "SODL",
+    "EcuName": "Side Obstacle Detection Left",
+    "EcuAddress": "0x1432",
+    "EcuAddressDecimal": 5170,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SODR",
+    "EcuName": "Side Obstacle Detection Right",
+    "EcuAddress": "0x1433",
+    "EcuAddressDecimal": 5171,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SRSM",
+    "EcuName": "Supplementary Restraint System",
+    "EcuAddress": "0x1C01",
+    "EcuAddressDecimal": 7169,
+    "LinNode": "No",
+    "carcomPosition":  124
+  },
+  {
+    "EcuAlias": "SRSR",
+    "EcuName": "Supplementary Restraint System Redundant",
+    "EcuAddress": "0x1D82",
+    "EcuAddressDecimal": 7554,
+    "LinNode": "No",
+    "carcomPosition":  125
+  },
+  {
+    "EcuAlias": "SRCF",
+    "EcuName": "Short Range Camera Front",
+    "EcuAddress": "0x1D70",
+    "EcuAddressDecimal": 7536,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SRCB",
+    "EcuName": "Short Range Camera Back",
+    "EcuAddress": "0x1D6F",
+    "EcuAddressDecimal": 7535,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SRCL",
+    "EcuName": "Short Range Camera Left",
+    "EcuAddress": "0x1D71",
+    "EcuAddressDecimal": 7537,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SRCR",
+    "EcuName": "Short Range Camera Right",
+    "EcuAddress": "0x1D72",
+    "EcuAddressDecimal": 7538,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SSM",
+    "EcuName": "Safe Stop Module",
+    "EcuAddress": "0x1628",
+    "EcuAddressDecimal": 5672,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SSMB",
+    "EcuName": " BackupSafe Stop Module",
+    "EcuAddress": "0x162C",
+    "EcuAddressDecimal": 5676,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SUM",
+    "EcuName": "Suspension Module",
+    "EcuAddress": "0x1614",
+    "EcuAddressDecimal": 5652,
+    "LinNode": "No",
+    "carcomPosition":  45
+  },
+  {
+    "EcuAlias": "SWM",
+    "EcuName": "Steering Wheel Module",
+    "EcuAddress": "0x1B91",
+    "EcuAddressDecimal": 7057,
+    "LinNode": "Yes",
+    "carcomPosition":  113
+  },
+  {
+    "EcuAlias": "SWSL",
+    "EcuName": "Steering Wheel Switch Left",
+    "EcuAddress": "0x1D73",
+    "EcuAddressDecimal": 7539,
+    "LinNode": "Yes",
+    "carcomPosition":  107
+  },
+  {
+    "EcuAlias": "SWSR",
+    "EcuName": "Steering Wheel Switch Right",
+    "EcuAddress": "0x1D74",
+    "EcuAddressDecimal": 7540,
+    "LinNode": "Yes",
+    "carcomPosition":  109
+  },
+  {
+    "EcuAlias": "SRL",
+    "EcuName": "Side Radar Left",
+    "EcuAddress": "0x1D27",
+    "EcuAddressDecimal": 7463,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "SRR",
+    "EcuName": "Side Radar Right",
+    "EcuAddress": "0x1D28",
+    "EcuAddressDecimal": 7464,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TACM",
+    "EcuName": "Transmission Actuator Control Module",
+    "EcuAddress": "0x163C",
+    "EcuAddressDecimal": 5692,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TCA",
+    "EcuName": "Telematics and Connectivity Antenna unit ",
+    "EcuAddress": "0x1D87",
+    "EcuAddressDecimal": 7559,
+    "LinNode": "No",
+    "carcomPosition":  20
+  },
+  {
+    "EcuAlias": "TCAM",
+    "EcuName": "Telematics and Connectivity Antenna Module ",
+    "EcuAddress": "0x1021",
+    "EcuAddressDecimal": 4129,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TCM",
+    "EcuName": "Transmission Control Module",
+    "EcuAddress": "0x1632",
+    "EcuAddressDecimal": 5682,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TEM",
+    "EcuName": "Telematics Module",
+    "EcuAddress": "0x1011",
+    "EcuAddressDecimal": 4113,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TEM2",
+    "EcuName": "Telematics Module 2",
+    "EcuAddress": "0x1261",
+    "EcuAddressDecimal": 4705,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TGWA",
+    "EcuName": "Tail GateWay Module A",
+    "EcuAddress": "0x1D1C",
+    "EcuAddressDecimal": 7452,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TGWM",
+    "EcuName": "Tail GateWay Module",
+    "EcuAddress": "0x1D2B",
+    "EcuAddressDecimal": 7467,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TPCM",
+    "EcuName": "Transmission Pump Control Module",
+    "EcuAddress": "0x1662",
+    "EcuAddressDecimal": 5730,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "TRM",
+    "EcuName": "Trailer Module",
+    "EcuAddress": "0x1A17",
+    "EcuAddressDecimal": 6679,
+    "LinNode": "No",
+    "carcomPosition":  123
+  },
+  {
+    "EcuAlias": "TVM",
+    "EcuName": "Television Module",
+    "EcuAddress": "0x1202",
+    "EcuAddressDecimal": 4610,
+    "LinNode": "Yes",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "VCM",
+    "EcuName": "Vehicle Connectivity Module",
+    "EcuAddress": "0x1001",
+    "EcuAddressDecimal": 4097,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "VCU1",
+    "EcuName": "Vehicle Computational Unit 1",
+    "EcuAddress": "0x1602",
+    "EcuAddressDecimal": 5634,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "VDDM",
+    "EcuName": "Vehicle Dynamics Domain Master",
+    "EcuAddress": "0x1601",
+    "EcuAddressDecimal": 5633,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "VGM",
+    "EcuName": "Vehicle Gateway Module ",
+    "EcuAddress": "0x1002",
+    "EcuAddressDecimal": 4098,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "WAM",
+    "EcuName": "Wide Angle Vision Module",
+    "EcuAddress": "0x1431",
+    "EcuAddressDecimal": 5169,
+    "LinNode": "No",
+    "carcomPosition":  9999
+  },
+  {
+    "EcuAlias": "WPC",
+    "EcuName": "Wireless Phone Charger",
+    "EcuAddress": "0x1B41",
+    "EcuAddressDecimal": 6977,
+    "LinNode": "Yes",
+    "carcomPosition":  52
+  },
+  {
+    "EcuAlias": "HIC",
+    "EcuName": "High Integrity CPU C",
+    "EcuAddress": "0x1D88",
+    "EcuAddressDecimal": 7560,
+    "LinNode": "No",
+    "carcomPosition":  167
+  },
+  {
+    "EcuAlias": "HPB",
+    "EcuName": "High Performance CPU B",
+    "EcuAddress": "0x1D01",
+    "EcuAddressDecimal": 7425,
+    "LinNode": "No",
+    "carcomPosition":  175
+  },
+  {
+    "EcuAlias": "CRSM",
+    "EcuName": "Comfort Rear Seat Module",
+    "EcuAddress": "0x1D81",
+    "EcuAddressDecimal": 7553,
+    "LinNode": "Yes",
+    "carcomPosition":  60
+  },
+  {
+    "EcuAlias": "ADPU",
+    "EcuName": "Autonomous Drive Position Unit",
+    "EcuAddress": "0x1D86",
+    "EcuAddressDecimal": 7558,
+    "LinNode": "No",
+    "carcomPosition":  19
+  },
+  {
+    "EcuAlias": "HOD",
+    "EcuName": "Autonomous Drive Position Unit",
+    "EcuAddress": "0x1D85",
+    "EcuAddressDecimal": 7557,
+    "LinNode": "No",
+    "carcomPosition":  23
+  },
+  {
+    "EcuAlias": "VESC",
+    "EcuName": "Vehicle Ethernet Switch C",
+    "EcuAddress": "0x1D38",
+    "EcuAddressDecimal": 7480,
+    "LinNode": "No",
+    "carcomPosition":  151
+  },
+  {
+    "EcuAlias": "ADSS",
+    "EcuName": "AD Separation Switch",
+    "EcuAddress": "0x1D51",
+    "EcuAddressDecimal": 7505,
+    "LinNode": "Yes",
+    "carcomPosition":  16
+  },
+  {
+    "EcuAlias": "OHTL",
+    "EcuName": "Overhead Console Third row Left",
+    "EcuAddress": "0x1D7C",
+    "EcuAddressDecimal": 7548,
+    "LinNode": "Yes",
+    "carcomPosition":  200
+  },
+  {
+    "EcuAlias": "VESA",
+    "EcuName": "Vehicle Ethernet Switch A",
+    "EcuAddress": "0x1D36",
+    "EcuAddressDecimal": 7478,
+    "LinNode": "No",
+    "carcomPosition":  153
+  },
+  {
+    "EcuAlias": "VESB",
+    "EcuName": "Vehicle Ethernet Switch B",
+    "EcuAddress": "0x1D37",
+    "EcuAddressDecimal": 7479,
+    "LinNode": "No",
+    "carcomPosition":  152
+  },
+  {
+    "EcuAlias": "ZCLA",
+    "EcuName": "Zone controller Left A",
+    "EcuAddress": "0x1D43",
+    "EcuAddressDecimal": 7491,
+    "LinNode": "No",
+    "carcomPosition":  157
+  },
+  {
+    "EcuAlias": "ZCLB",
+    "EcuName": "Zone controller Left B",
+    "EcuAddress": "0x1D44",
+    "EcuAddressDecimal": 7492,
+    "LinNode": "No",
+    "carcomPosition":  156
+  },
+  {
+    "EcuAlias": "ZCRA",
+    "EcuName": "Zone controller Right A",
+    "EcuAddress": "0x1D45",
+    "EcuAddressDecimal": 7493,
+    "LinNode": "No",
+    "carcomPosition":  150
+  },
+  {
+    "EcuAlias": "ZCRB",
+    "EcuName": "Zone controller Right B",
+    "EcuAddress": "0x1D46",
+    "EcuAddressDecimal": 7494,
+    "LinNode": "No",
+    "carcomPosition":  154
+  },
+  {
+    "EcuAlias": "LESM",
+    "EcuName": "Left Ethernet Switch Module",
+    "EcuAddress": "0x1D3C",
+    "EcuAddressDecimal": 7484,
+    "LinNode": "No",
+    "carcomPosition":  174
+  }
+]

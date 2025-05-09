@@ -1,0 +1,62 @@
+[
+  {
+    "Ecu": "CCPM",
+    "EcuAddress": "0x16D3",
+    "EcuAddressDecimal": 5843,
+    "ApplDiagnosticPartNumber": "",
+    "ApplDiagnosticPartNumberDefault": "",
+    "DefaultPinCode": "",
+    "SecurityCodes": [],
+    "SoftwarePartNumbers": [],
+    "SlaveNodes": [],
+    "HardwarePartNumber": "",
+    "HardwareSerialNumber": "",
+    "Version": "",
+    "EcuStatus": ""
+  },
+  {
+    "Ecu": "BCPM",
+    "EcuAddress": "0x16D2",
+    "EcuAddressDecimal": 5842,
+    "ApplDiagnosticPartNumber": "",
+    "ApplDiagnosticPartNumberDefault": "",
+    "DefaultPinCode": "",
+    "SecurityCodes": [],
+    "SoftwarePartNumbers": [],
+    "SlaveNodes": [],
+    "HardwarePartNumber": "",
+    "HardwareSerialNumber": "",
+    "Version": "",
+    "EcuStatus": ""
+  },
+  {
+    "Ecu": "IPDA",
+    "EcuAddress": "0x1D5A",
+    "EcuAddressDecimal": 7514,
+    "ApplDiagnosticPartNumber": "",
+    "ApplDiagnosticPartNumberDefault": "",
+    "DefaultPinCode": "",
+    "SecurityCodes": [],
+    "SoftwarePartNumbers": [],
+    "SlaveNodes": [],
+    "HardwarePartNumber": "",
+    "HardwareSerialNumber": "",
+    "Version": "",
+    "EcuStatus": ""
+  },
+  {
+    "Ecu": "ITA",
+    "EcuAddress": "0x1D60",
+    "EcuAddressDecimal": 7520,
+    "ApplDiagnosticPartNumber": "",
+    "ApplDiagnosticPartNumberDefault": "",
+    "DefaultPinCode": "",
+    "SecurityCodes": [],
+    "SoftwarePartNumbers": [],
+    "SlaveNodes": [],
+    "HardwarePartNumber": "",
+    "HardwareSerialNumber": "",
+    "Version": "",
+    "EcuStatus": ""
+  }
+]
